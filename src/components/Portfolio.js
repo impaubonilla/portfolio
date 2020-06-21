@@ -1,9 +1,13 @@
 import React from 'react'
+import { Section } from '../styled'
+import { DesignCard, BlogCard, GalerryCard } from './Cards'
 
-export default () => {
+export default function Portfolio() {
     return (
-        <div>
-            Portfolio
-        </div>
+        <Section>
+            <DesignCard />
+            <BlogCard />
+            <GalerryCard />
+        </Section>
     )
 }

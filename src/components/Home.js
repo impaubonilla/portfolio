@@ -1,9 +1,10 @@
 import React from 'react'
+import WelcomeBanner from './WelcomeBanner'
 
-export default () => {
+export default function Home() {
     return (
         <div>
-            Home
+            <WelcomeBanner />
         </div>
     )
 }
