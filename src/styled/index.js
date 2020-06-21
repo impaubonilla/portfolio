@@ -54,11 +54,15 @@ export const IconWrapper = styled.div`
   height: 40px;
 `
 
-export const IconStyle = styled.div`
+export const IconNameStyle = styled.div`
   font-size: 14px;
   font-weight: 500;
   text-transform: lowercase;
   letter-spacing: 8px;
+`
+
+export const IconStyle = styled.div`
+
 `
 
 export const DesignCardContainer = styled.div`
@@ -115,6 +119,7 @@ export const FooterContainer = styled.div`
 export const FooterContacts = styled.ul`
   list-style: none;
   display: flex;
+  align-items: center;
   flex-direction: row;
   li {
     margin-right: 10px;

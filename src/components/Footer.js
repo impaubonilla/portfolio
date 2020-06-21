@@ -1,24 +1,27 @@
 import React from 'react'
 import { FooterStyle, FooterContainer, FooterContacts } from '../styled'
 import styled from 'styled-components'
+import { LinkedInIcon, GitHubIcon, EmailIcon, InstagramIcon, TwitterIcon } from './Icons'
 
 export const Copyright = styled.p`
-  width: 100px;
+  width: 130px;
+  font-weight: 600;
+  letter-spacing: 3px;
 `
 
 export default function Footer() {
     return (
         <FooterStyle>
             <FooterContainer>
-                <Copyright>&copy; 2020, PFB</Copyright>
+                <Copyright>&copy; 2020, PFB.</Copyright>
             </FooterContainer>
             <FooterContainer>
                 <FooterContacts>
-                    <li>LinkIn</li>
-                    <li>GitHub</li>
-                    <li>Email</li>
-                    <li>Instagram</li>
-                    <li>Twitter</li>
+                    <LinkedInIcon />
+                    <GitHubIcon />
+                    <EmailIcon />
+                    <InstagramIcon />
+                    <TwitterIcon />
                 </FooterContacts>
                 <div>
                     <p>"Seek his will in all you do,

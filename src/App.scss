@@ -12,6 +12,8 @@ $mainFont: "Comfortaa", cursive;
   padding: 0;
 }
 
+/*                    Cards.js Styles                    */
+
 .container .card .face.face1 {
   position: relative;
   display: flex;
@@ -95,6 +97,8 @@ $mainFont: "Comfortaa", cursive;
   }
 }
 
+/*                    Icons.js Styles                    */
+
 .nav-link {
   color: #e8e8e8;
   transition: 0.3s ease-in-out;
@@ -108,6 +112,8 @@ $mainFont: "Comfortaa", cursive;
 .active {
   color: #faed27;
 }
+
+/*                    WelcomeBanner.js Styles                    */
 
 .banner-section {
   background-color: $neonYellow;
@@ -134,7 +140,6 @@ $mainFont: "Comfortaa", cursive;
   text-transform: uppercase;
   white-space: nowrap;
   position: absolute;
-  // line-height: 10vh;
   font-size: 3rem;
   font-weight: 900;
   color: $mainbgcolor;
