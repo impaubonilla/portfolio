@@ -23,8 +23,6 @@ export default function Home() {
                 <h1>Hello there,</h1>
                 <h1>I'm Paulo</h1>
                 <p>I'm a Front End Web Developer. </p>
-
-                just commiting
             </Introduction>
         </div>
     )
