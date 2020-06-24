@@ -2,12 +2,22 @@ import styled from 'styled-components'
 
 /*                    App.js Styles                    */
 
+export const NameLogo = styled.div`
+  padding-bottom: 2rem;
+  a { 
+    color: #e8e8e8;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 8px;}
+`
+
 export const Section = styled.div`
   scroll-behavior: smooth;
 `
 
 export const Nav = styled.div`
-  width: 300px;
+  width: 400px;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -34,7 +44,7 @@ export const PageWrapper = styled.div`
 
 export const PageInner = styled.div`
   display: flex;
-  max-width: 800px;
+  max-width: 850px;
   width: 100%;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
   border-right: 1px solid rgba(255, 255, 255, 0.1);
@@ -51,7 +61,10 @@ export const Content = styled.div`
 export const IconWrapper = styled.div`
   display: flex;
   align-items: center;
-  height: 40px;
+  height: 50px;
+  a {
+    color: #e8e8e8;
+  }
 `
 
 export const IconNameStyle = styled.div`
@@ -96,8 +109,22 @@ export const BlogCardContainer = styled(DesignCardContainer)`
 
 export const GalleryCardContainer = styled(DesignCardContainer)`
   .card {
-    .face {background: #c4e0f9;}
+    margin-bottom: 10rem;
+    .face {
+      background: #c4e0f9;}
   }
+`
+
+/*                    Portfolio.js Styles                    */
+
+export const SubHeader = styled.div`
+  margin: 1rem 0;
+  padding: 0 1rem 1rem;
+  color: #e8e8e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 `
 
 
@@ -105,11 +132,14 @@ export const GalleryCardContainer = styled(DesignCardContainer)`
 
 export const FooterStyle = styled.div`
   display: flex;
-  margin: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   justify-content: space-between;
   align-items: center;
   color: #e8e8e8;
   height: 100px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 `
 
 export const FooterContainer = styled.div`

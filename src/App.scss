@@ -6,10 +6,13 @@ $secSampleColor: #546a7b;
 $redCrayola: #ef2d56;
 $linen: #f9ebe0;
 $mainFont: "Comfortaa", cursive;
+$oldFont: "Raleway", sans-serif;
+$welcomeFont: "Luckiest Guy", cursive;
 
 * {
   margin: 0;
   padding: 0;
+  -webkit-tap-highlight-color: transparent;
 }
 
 /*                    Cards.js Styles                    */
@@ -134,7 +137,7 @@ $mainFont: "Comfortaa", cursive;
 }
 
 .banner-section .scroll .text-greetings {
-  margin: 0;
+  line-height: 70px;
   justify-content: center;
   align-items: center;
   text-transform: uppercase;

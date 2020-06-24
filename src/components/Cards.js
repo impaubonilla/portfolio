@@ -11,7 +11,6 @@ export const DesignCard = () => {
             <div className="card">
                 <div className="face face1">
                     <div className="content1">
-                        {/* <div></div> */}
                         <img src={data} alt="..." />
                         <h3>Designs</h3>
                     </div>
@@ -37,7 +36,6 @@ export const BlogCard = () => {
             <div className="card">
                 <div className="face face1">
                     <div className="content1">
-                        {/* <div></div> */}
                         <img src={text} alt="..." />
                         <h3>Blog</h3>
                     </div>
@@ -63,7 +61,6 @@ export const GalerryCard = () => {
             <div className="card">
                 <div className="face face1">
                     <div className="content1">
-                        {/* <div></div> */}
                         <img src={picture} alt="..." />
                         <h3>Gallery</h3>
                     </div>

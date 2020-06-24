@@ -4,8 +4,8 @@ import { Icon } from 'semantic-ui-react'
 import { NavLink } from 'react-router-dom'
 import styled from 'styled-components'
 
-const Height20px = styled.div`
-  height: 20px;
+const Margin2rem = styled.div`
+  margin: 2rem;
 `
 
 export const HomeIcon = () => {
@@ -50,7 +50,7 @@ export const BlogIcon = () => {
 
 export const Height = () => {
     return (
-        <Height20px />
+        <Margin2rem />
     )
 }
 
@@ -66,70 +66,70 @@ export const AboutIcon = () => {
 
 export const LinkedInIcon = () => {
     return (
-        <NavLink exact className="nav-link" activeClassName="active" to="/about">
+        <>
             <IconWrapper>
-                <Icon name='linkedin square' />
+                <a href="https://www.linkedin.com/in/paulo-bonilla-2375851aa/" target="_blank" rel="noopener noreferrer"><Icon name='linkedin square' /></a>
             </IconWrapper>
-        </NavLink>
+        </>
     )
 }
 
 export const GitHubIcon = () => {
     return (
-        <NavLink exact className="nav-link" activeClassName="active" to="/about">
+        <>
             <IconWrapper>
-                <Icon name='github' />
+                <a href="https://github.com/impaubonilla" target="_blank" rel="noopener noreferrer"><Icon name='github' /></a>
             </IconWrapper>
-        </NavLink>
+        </>
     )
 }
 
 export const EmailIcon = () => {
     return (
-        <NavLink exact className="nav-link" activeClassName="active" to="/about">
+        <>
             <IconWrapper>
-                <Icon name='mail outline' />
+                <a href="mailto:impaubonilla@gmail.com" target="_blank" rel="noopener noreferrer"><Icon name='mail outline' /></a>
             </IconWrapper>
-        </NavLink>
+        </>
     )
 }
 
 export const InstagramIcon = () => {
     return (
-        <NavLink exact className="nav-link" activeClassName="active" to="/about">
+        <>
             <IconWrapper>
-                <Icon name='instagram' />
+                <a href="https://www.instagram.com/impaubonilla/" target="_blank" rel="noopener noreferrer"><Icon name='instagram' /></a>
             </IconWrapper>
-        </NavLink>
+        </>
     )
 }
 
 export const TwitterIcon = () => {
     return (
-        <NavLink exact className="nav-link" activeClassName="active" to="/about">
+        <>
             <IconWrapper>
-                <Icon name='twitter' />
+                <a href="https://www.twitter.com/pxixcv" target="_blank" rel="noopener noreferrer"><Icon name='twitter' /></a>
             </IconWrapper>
-        </NavLink>
+        </>
     )
 }
 
 export const FacebookIcon = () => {
     return (
-        <NavLink exact className="nav-link" activeClassName="active" to="/about">
+        <>
             <IconWrapper>
-                <Icon name='facebook' />
+                <a href="https://www.facebook.com/pxixcv" target="_blank" rel="noopener noreferrer"><Icon name='facebook' /></a>
             </IconWrapper>
-        </NavLink>
+        </>
     )
 }
 
 export const YouTubeIcon = () => {
     return (
-        <NavLink exact className="nav-link" activeClassName="active" to="/about">
+        <>
             <IconWrapper>
-                <Icon name='youtube' />
+                <a href="https://www.youtube.com/channel/UCOzqf6znGEBswEYLu0exL-A" target="_blank" rel="noopener noreferrer"><Icon name='youtube' /></a>
             </IconWrapper>
-        </NavLink>
+        </>
     )
 }

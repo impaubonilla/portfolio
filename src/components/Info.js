@@ -48,47 +48,52 @@ export const ContactsContainer = styled.ul`
 `
 
 export const Bio = () => {
-    return (
-        <Section>
-            <Subheader>Bio</Subheader>
-            <Text>my name is Paulo Bonilla, and I have a deep passion for programming and graphic design.
-                    I'm currently living in Los Angeles. If you're interested knowing me, feel free to go to my <Instagram>Instagram</Instagram> account, I have <Twitter>Twitter</Twitter> as well, but I don't tweet frequently and yes, I have <Facebook>Facebook</Facebook> and <YouTube>YouTube</YouTube>, too!
-            </Text>
-        </Section>
-    )
+  return (
+    <Section>
+      <Subheader>Bio</Subheader>
+      <Text>Hello, my name is Paulo Bonilla, and I have a deep passion for programming and graphic design.
+      I'm currently living in Los Angeles. I love listnening to music. I love to draw.
+      
+      If you're interested to know more,
+      feel free to go to my <Instagram>Instagram</Instagram> account,
+      I have <Twitter>Twitter</Twitter> as well, but I don't tweet frequently and yes,
+      I have <Facebook>Facebook</Facebook> and <YouTube>YouTube</YouTube>, too!
+      </Text>
+    </Section>
+  )
 }
 
 export const Tools = () => {
-    return (
-        <Section>
-            <Subheader>Tools</Subheader>
-            <h4>Languages:</h4>
-            <ToolsContainer>
-                <Lang>html5</Lang>
-                <Lang>javascript</Lang>
-                <Lang>css3</Lang>
-                <Lang>scss</Lang>
-            </ToolsContainer>
-            <h4>Frameworks:</h4>
-            <ToolsContainer>
-                <Lang>react.js</Lang>
-                <Lang>node.js</Lang>
-            </ToolsContainer>
-        </Section>
-    )
+  return (
+    <Section>
+      <Subheader>Tools</Subheader>
+      <h4>Languages:</h4>
+      <ToolsContainer>
+        <Lang>html5</Lang>
+        <Lang>javascript</Lang>
+        <Lang>css3</Lang>
+        <Lang>scss</Lang>
+      </ToolsContainer>
+      <h4>Frameworks:</h4>
+      <ToolsContainer>
+        <Lang>react.js</Lang>
+        <Lang>node.js</Lang>
+      </ToolsContainer>
+    </Section>
+  )
 }
 
 export const Contacts = () => {
-    return (
-        <Section>
-            <Subheader>Contacts</Subheader>
-            <ContactsContainer>
-                <ContactsStyle><a href="https://www.linkedin.com/in/paulo-bonilla-2375851aa/" target="_blank" rel="noopener noreferrer" className="linkedin">LinkedIn</a></ContactsStyle>
-                <ContactsStyle><a href="https://github.com/impaubonilla" target="_blank" rel="noopener noreferrer" className="github">GitHub</a></ContactsStyle>
-                <ContactsStyle><a href="mailto:impaubonilla@gmail.com" target="_blank" rel="noopener noreferrer" className="email">Email</a></ContactsStyle>
-                <ContactsStyle><a href="https://www.instagram.com/impaubonilla/" target="_blank" rel="noopener noreferrer" className="instagram">Instagram</a></ContactsStyle>
-                <ContactsStyle><a href="https://www.twitter.com/pxixcv" target="_blank" rel="noopener noreferrer" className="twitter">Twitter</a></ContactsStyle>
-            </ContactsContainer>
-        </Section >
-    )
+  return (
+    <Section>
+      <Subheader>Contacts</Subheader>
+      <ContactsContainer>
+        <ContactsStyle><a href="https://www.linkedin.com/in/paulo-bonilla-2375851aa/" target="_blank" rel="noopener noreferrer" className="linkedin">LinkedIn</a></ContactsStyle>
+        <ContactsStyle><a href="https://github.com/impaubonilla" target="_blank" rel="noopener noreferrer" className="github">GitHub</a></ContactsStyle>
+        <ContactsStyle><a href="mailto:impaubonilla@gmail.com" target="_blank" rel="noopener noreferrer" className="email">Email</a></ContactsStyle>
+        <ContactsStyle><a href="https://www.instagram.com/impaubonilla/" target="_blank" rel="noopener noreferrer" className="instagram">Instagram</a></ContactsStyle>
+        <ContactsStyle><a href="https://www.twitter.com/pxixcv" target="_blank" rel="noopener noreferrer" className="twitter">Twitter</a></ContactsStyle>
+      </ContactsContainer>
+    </Section >
+  )
 }

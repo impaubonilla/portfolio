@@ -6,9 +6,9 @@ import Gallery from './components/Gallery';
 import Blog from './components/Blog'
 import About from './components/About'
 import { HomeIcon, PortfolioIcon, BlogIcon, DesignIcon, Height, AboutIcon } from './components/Icons'
-import { Nav, Content, PageWrapper, PageInner, Icons } from './styled'
+import { NameLogo, Nav, Content, PageWrapper, PageInner, Icons } from './styled'
 import './App.scss';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 import Footer from './components/Footer';
 
 function App() {
@@ -18,6 +18,11 @@ function App() {
         <PageInner>
           <Nav>
             <Icons>
+              <NameLogo>
+                <Link to="/">
+                  Paulo Bonilla
+                </Link>
+              </NameLogo>
               <HomeIcon />
               <PortfolioIcon />
               <DesignIcon />
