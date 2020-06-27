@@ -12,7 +12,7 @@ export const DesignCard = () => {
                 <div className="face face1">
                     <div className="content1">
                         <img src={data} alt="..." />
-                        <h3>Designs</h3>
+                        <h3>Projects</h3>
                     </div>
                 </div>
                 <div className="face face2">

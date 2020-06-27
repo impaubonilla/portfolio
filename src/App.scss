@@ -6,13 +6,23 @@ $secSampleColor: #546a7b;
 $redCrayola: #ef2d56;
 $linen: #f9ebe0;
 $mainFont: "Comfortaa", cursive;
-$oldFont: "Raleway", sans-serif;
-$welcomeFont: "Luckiest Guy", cursive;
+$oldFont: "UnifrakturMaguntia", cursive;
+$welcomeFont: "Cinzel", serif;
+
+// font-family: 'Bungee Shade', cursive;
+// font-family: 'Cinzel', serif;
+// font-family: 'Jost', sans-serif;
+// font-family: 'Libre Barcode 39 Extended Text', cursive;
+// font-family: 'Questrial', sans-serif;
+// font-family: 'Space Mono', monospace;
 
 * {
   margin: 0;
   padding: 0;
   -webkit-tap-highlight-color: transparent;
+  ::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 /*                    Cards.js Styles                    */
