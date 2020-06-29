@@ -1,11 +1,11 @@
 import React from 'react';
 import Home from './components/Home'
 import Portfolio from './components/Portfolio'
-import Designs from './components/Designs'
+import Projects from './components/Projects'
 import Gallery from './components/Gallery';
 import Blog from './components/Blog'
 import About from './components/About'
-import { HomeIcon, PortfolioIcon, BlogIcon, DesignIcon, Height, AboutIcon } from './components/Icons'
+import { HomeIcon, PortfolioIcon, ProjectsIcon, TechnologyIcon, BlogIcon, Height, AboutIcon } from './components/Icons'
 import { NameLogo, Nav, Content, PageWrapper, PageInner, Icons } from './styled'
 import './App.scss';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
@@ -25,7 +25,8 @@ function App() {
               </NameLogo>
               <HomeIcon />
               <PortfolioIcon />
-              <DesignIcon />
+              <ProjectsIcon />
+              <TechnologyIcon />
               <BlogIcon />
               <Height />
               <AboutIcon />
@@ -35,7 +36,7 @@ function App() {
             <Switch>
               <Route path="/" exact component={Home} />
               <Route path="/portfolio" component={Portfolio} />
-              <Route path="/designs" component={Designs} />
+              <Route path="/projects" component={Projects} />
               <Route path="/gallery" component={Gallery} />
               <Route path="/blog" component={Blog} />
               <Route path="/about" component={About} />

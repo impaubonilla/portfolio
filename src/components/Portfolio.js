@@ -1,6 +1,6 @@
 import React from 'react'
 import { Section, SubHeader } from '../styled'
-import { DesignCard, BlogCard, GalerryCard } from './Cards'
+import { ProjectsCard, BlogCard, GalerryCard } from './Cards'
 import styled from 'styled-components'
 import baybayin from '../videos/baybayintagalog.mp4'
 
@@ -26,10 +26,9 @@ export const VideoHeader = styled.ul`
   li {
       font-size: 32px;
       font-weight: 600;
-      font-family: 'Libre Barcode 39 Extended Text', cursive;
+      font-family: 'Libre Barcode 39 Extended Text', cursive;                   
       letter-spacing: 3px;
       text-transform: uppercase;
-      /* cursor: none; */
   }
 `
 
@@ -47,7 +46,7 @@ export default function Portfolio() {
             </VideoWrapper>
 
             <SubHeader>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor, repudiandae. Quod dolorum similique beatae, id at debitis labore? Rerum est non adipisci doloremque voluptas. Maxime porro expedita magnam aspernatur nemo.</SubHeader>
-            <DesignCard />
+            <ProjectsCard />
             <SubHeader>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor, repudiandae. Quod dolorum similique beatae, id at debitis labore? Rerum est non adipisci doloremque voluptas. Maxime porro expedita magnam aspernatur nemo.</SubHeader>
             <BlogCard />
             <SubHeader>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor, repudiandae. Quod dolorum similique beatae, id at debitis labore? Rerum est non adipisci doloremque voluptas. Maxime porro expedita magnam aspernatur nemo.</SubHeader>

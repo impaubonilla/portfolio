@@ -1,5 +1,5 @@
 import React from 'react'
-import { IconWrapper, IconNameStyle } from '../styled'
+import { IconWrapper, IconStyle, IconNameStyle } from '../styled'
 import { Icon } from 'semantic-ui-react'
 import { NavLink } from 'react-router-dom'
 import styled from 'styled-components'
@@ -12,6 +12,9 @@ export const HomeIcon = () => {
     return (
         <NavLink exact className="nav-link" activeClassName="active" to="/">
             <IconWrapper>
+                <IconStyle>
+                    <Icon name="home" />
+                </IconStyle>
                 <IconNameStyle>Home</IconNameStyle>
             </IconWrapper>
         </NavLink>
@@ -22,17 +25,36 @@ export const PortfolioIcon = () => {
     return (
         <NavLink exact className="nav-link" activeClassName="active" to="/portfolio">
             <IconWrapper>
+                <IconStyle>
+                    <Icon name="folder open outline" />
+                </IconStyle>
                 <IconNameStyle>Portfolio</IconNameStyle>
             </IconWrapper>
         </NavLink>
     )
 }
 
-export const DesignIcon = () => {
+export const ProjectsIcon = () => {
     return (
-        <NavLink exact className="nav-link" activeClassName="active" to="/designs">
+        <NavLink exact className="nav-link" activeClassName="active" to="/projects">
             <IconWrapper>
-                <IconNameStyle>Designs</IconNameStyle>
+                <IconStyle>
+                    <Icon name="file outline" />
+                </IconStyle>
+                <IconNameStyle>Projects</IconNameStyle>
+            </IconWrapper>
+        </NavLink>
+    )
+}
+
+export const TechnologyIcon = () => {
+    return (
+        <NavLink exact className="nav-link" activeClassName="active" to="/technology">
+            <IconWrapper>
+                <IconStyle>
+                    <Icon name="file code outline" />
+                </IconStyle>
+                <IconNameStyle>Technology</IconNameStyle>
             </IconWrapper>
         </NavLink>
     )
@@ -42,6 +64,9 @@ export const BlogIcon = () => {
     return (
         <NavLink exact className="nav-link" activeClassName="active" to="/blog">
             <IconWrapper>
+                <IconStyle>
+                    <Icon name="file alternate outline" />
+                </IconStyle>
                 <IconNameStyle>Blog</IconNameStyle>
             </IconWrapper>
         </NavLink>
@@ -58,6 +83,9 @@ export const AboutIcon = () => {
     return (
         <NavLink exact className="nav-link" activeClassName="active" to="/about">
             <IconWrapper>
+                <IconStyle>
+                    <Icon name="user secret" />
+                </IconStyle>
                 <IconNameStyle>About</IconNameStyle>
             </IconWrapper>
         </NavLink>

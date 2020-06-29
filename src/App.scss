@@ -1,4 +1,4 @@
-$mainbgcolor: #1c2222;
+$mainbgcolor: #333436;
 $textColor: #e8e8e8;
 $neonYellow: #faed27;
 $sampleColor: #2d728f;
@@ -19,6 +19,7 @@ $welcomeFont: "Cinzel", serif;
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   -webkit-tap-highlight-color: transparent;
   ::-webkit-scrollbar {
     display: none;
@@ -28,6 +29,7 @@ $welcomeFont: "Cinzel", serif;
 /*                    Cards.js Styles                    */
 
 .container .card .face.face1 {
+  color: #000;
   position: relative;
   display: flex;
   justify-content: center;
@@ -83,6 +85,7 @@ $welcomeFont: "Cinzel", serif;
 }
 
 .container .card .face.face2 .content2 p {
+  color: #333436;
   margin: 0;
   padding: 0;
   font-family: $mainFont;

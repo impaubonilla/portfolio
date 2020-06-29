@@ -1,13 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { DesignCardContainer, BlogCardContainer, GalleryCardContainer } from '../styled'
+import { ProjectsCardContainer, BlogCardContainer, GalleryCardContainer } from '../styled'
 import data from '../images/data.png'
 import text from '../images/text.png'
 import picture from '../images/picture.png'
 
-export const DesignCard = () => {
+export const ProjectsCard = () => {
     return (
-        <DesignCardContainer className="container">
+        <ProjectsCardContainer className="container">
             <div className="card">
                 <div className="face face1">
                     <div className="content1">
@@ -20,13 +20,13 @@ export const DesignCard = () => {
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         Commodi impedit laboriosam, beatae unde facere architecto
                         veritatis itaque excepturi iure cum iste.</p>
-                        <Link className="alink" to="/designs">
+                        <Link className="alink" to="/projects">
                             Read more
                         </Link>
                     </div>
                 </div>
             </div>
-        </DesignCardContainer>
+        </ProjectsCardContainer>
     )
 }
 

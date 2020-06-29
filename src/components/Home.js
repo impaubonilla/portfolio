@@ -32,7 +32,7 @@ export default function Home() {
                 <h1>I'm Paulo</h1>
                 <h3>I'm a Front End Web Developer. </h3>
                 <p>This is my website, please feel welcomed to browse through it and learn more about me &amp; my work. Thank you for your time, enjoy!
-                And maybe you can help me improve my skills. If you have any feedback or ways that I can work on, you can always contact me, hit me up! Always open to your guys’ point of views</p>
+                And maybe you can help me improve my skills. If you have any feedback or ways that I can work on, you can always contact me, hit me up! Always open to your guys’ point of views.</p>
             </Introduction>
         </div>
     )

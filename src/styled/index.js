@@ -13,7 +13,11 @@ export const NameLogo = styled.div`
 `
 
 export const Section = styled.div`
-  scroll-behavior: smooth;
+  color: #e8e8e8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 `
 
 export const Nav = styled.div`
@@ -52,7 +56,7 @@ export const PageInner = styled.div`
 
 export const Content = styled.div`
   width: 100%;
-  height: 100vh;
+  height: 100%;
   overflow: auto;
 `
 
@@ -75,13 +79,16 @@ export const IconNameStyle = styled.div`
 `
 
 export const IconStyle = styled.div`
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `
 
-export const DesignCardContainer = styled.div`
+export const ProjectsCardContainer = styled.div`
     width: 100%;
     position: relative;
     display: flex;
+    color: #e8e8e8;
     .card {
         margin-top: 5rem;
         display: flex;
@@ -101,13 +108,13 @@ export const DesignCardContainer = styled.div`
     }
 `
 
-export const BlogCardContainer = styled(DesignCardContainer)`
+export const BlogCardContainer = styled(ProjectsCardContainer)`
   .card {
     .face {background: #f9ebe0;}
   }
 `
 
-export const GalleryCardContainer = styled(DesignCardContainer)`
+export const GalleryCardContainer = styled(ProjectsCardContainer)`
   .card {
     margin-bottom: 10rem;
     .face {
