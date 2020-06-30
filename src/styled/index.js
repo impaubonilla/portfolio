@@ -9,7 +9,11 @@ export const NameLogo = styled.div`
     font-size: 12px;
     font-weight: 400;
     text-transform: uppercase;
-    letter-spacing: 8px;}
+    letter-spacing: 8px;
+    @media ${({ theme }) => theme.mediaQueries.bellow768} {
+    display: none;
+    }
+  }
 `
 
 export const Section = styled.div`
@@ -26,15 +30,22 @@ export const Nav = styled.div`
   display: flex;
   flex-direction: column;
   border-right: 1px solid rgba(255, 255, 255, 0.1);
+
+  @media ${({ theme }) => theme.mediaQueries.bellow768} {
+    width: 50px;
+  }
 `
 
 export const Icons = styled.div`
-  height: 30vh;
   padding: 2rem;
   display: flex;
   flex-direction: column;
   .nav-link {
     text-decoration: none;
+  }
+
+  @media ${({ theme }) => theme.mediaQueries.bellow768} {
+    padding: 1rem;
   }
 `
 
@@ -76,6 +87,10 @@ export const IconNameStyle = styled.div`
   font-weight: 500;
   text-transform: lowercase;
   letter-spacing: 8px;
+
+  @media ${({ theme }) => theme.mediaQueries.bellow768} {
+    display: none;
+  }
 `
 
 export const IconStyle = styled.div`
