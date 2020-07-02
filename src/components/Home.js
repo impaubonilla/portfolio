@@ -18,13 +18,19 @@ export const Introduction = styled.div`
         font-size: 60px;
       }
       font-weight: 100;
-      transition: 0.2s ease;
+      transition: 1s ease;
       cursor: none;
 
       &:hover {
           color: #faed27;
           font-size: 122px; 
-          transition: 0.1s ease;
+          transition: 0.2s ease;
+          @media (max-width: 768px) {
+            font-size: 92px;
+          }
+          @media (max-width: 480px) {
+            font-size: 62px;
+          }
       }
   }
 `

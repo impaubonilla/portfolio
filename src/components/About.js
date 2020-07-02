@@ -11,17 +11,16 @@ export const Section = styled.div`
 `
 
 export const DisplayPicture = styled.img`
-  height: 72vh;
   width: 100%;
 `
 
 export default function About() {
-    return (
-        <Section>
-            <DisplayPicture src={_white} alt="me" />
-            <Bio />
-            <Tools />
-            <Contacts />
-        </Section>
-    )
+  return (
+    <Section>
+      <DisplayPicture src={_white} alt="me" />
+      <Bio />
+      <Tools />
+      <Contacts />
+    </Section>
+  )
 }
