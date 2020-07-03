@@ -22,6 +22,7 @@ export const Section = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
 `
 
 export const Nav = styled.div`
