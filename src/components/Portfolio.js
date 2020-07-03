@@ -106,6 +106,14 @@ export const ProgressBar = styled.div`
       }
     }
   }
+  li.react:after {
+    animation-name: react;
+    @keyframes react {
+      to {
+        width: 90%;
+      }
+    }
+  }
 }
 `
 
@@ -136,6 +144,7 @@ export default function Portfolio() {
                     <li className="js">Javascript</li>
                     {/* <li className="css">Css3</li>
                     <li className="scss">Scss</li> */}
+                    <li className="react">React</li>
                 </ul>
             </ProgressBar>
         </Section>
