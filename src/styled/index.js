@@ -33,7 +33,7 @@ export const Nav = styled.div`
   border-right: 1px solid rgba(255, 255, 255, 0.1);
 
   @media ${({ theme }) => theme.mediaQueries.bellow768} {
-    width: 50px;
+    width: 60px;
   }
 `
 
