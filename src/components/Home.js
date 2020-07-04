@@ -53,7 +53,7 @@ export const Greetings = styled.div`
             font-size: 94px;
           }
           @media (max-width: 480px) {
-            font-size: 64px;
+            font-size: 74px;
           }
           @media (max-width: 380px) {
             font-size: 64px;
