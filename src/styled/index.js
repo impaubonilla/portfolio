@@ -52,7 +52,7 @@ export const Icons = styled.div`
 
 export const PageWrapper = styled.div`
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   display: flex;
   justify-content: center;
   background-color: #333436;
