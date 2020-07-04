@@ -89,7 +89,7 @@ export const IconNameStyle = styled.div`
   text-transform: lowercase;
   letter-spacing: 8px;
 
-  @media ${({ theme }) => theme.mediaQueries.bellow768} {
+  @media ${({ theme }) => theme.mediaQueries.bellow425} {
     display: none;
   }
 `

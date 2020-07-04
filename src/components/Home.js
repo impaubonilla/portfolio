@@ -5,6 +5,14 @@ import styled from 'styled-components'
 export const Introduction = styled.div`
   color: #e8e8e8;
   margin: 0 2rem;
+`
+
+export const Greetings = styled.div`
+  min-height: 500px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   h1 {
       height: 122px;
       min-width: 100%;
@@ -13,9 +21,11 @@ export const Introduction = styled.div`
       line-height: 1;
       font-size: 120px;
       @media (max-width: 768px) {
+        height: 92px;
         font-size: 90px;
       }
       @media (max-width: 480px) {
+        height: 62px;
         font-size: 60px;
       }
       font-weight: 100;
@@ -34,14 +44,6 @@ export const Introduction = styled.div`
           }
       }
   }
-`
-
-export const Greetings = styled.div`
-  min-height: 500px;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
 `
 
 export default function Home() {

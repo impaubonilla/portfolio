@@ -86,7 +86,7 @@ export const ProgressBar = styled.div`
     animation-name: js;
     @keyframes js {
       to {
-        width: 45%;
+        width: 55%;
       }
     }
   }
@@ -110,7 +110,7 @@ export const ProgressBar = styled.div`
     animation-name: react;
     @keyframes react {
       to {
-        width: 90%;
+        width: 85%;
       }
     }
   }
