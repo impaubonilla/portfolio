@@ -9,11 +9,16 @@ export const Introduction = styled.div`
 
 export const Greetings = styled.div`
   min-height: 500px;
+  @media (max-width: 768px) {
+    min-height: 400px;
+  }
+  @media (max-width: 480px) {
+    min-height: 400px;
+  }
+  @media (max-width: 380px) {
+    min-height: 400px;
+  }
   height: 100%;
-  /* @media (max-width: 768px) {
-    height: 92px;
-    font-size: 90px;
-  } */
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -30,6 +35,10 @@ export const Greetings = styled.div`
       }
       @media (max-width: 480px) {
         height: 90px;
+        font-size: 70px;
+      }
+      @media (max-width: 380px) {
+        height: 80px;
         font-size: 60px;
       }
       font-weight: 100;
@@ -44,6 +53,9 @@ export const Greetings = styled.div`
             font-size: 94px;
           }
           @media (max-width: 480px) {
+            font-size: 64px;
+          }
+          @media (max-width: 380px) {
             font-size: 64px;
           }
       }

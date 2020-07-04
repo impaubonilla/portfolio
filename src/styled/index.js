@@ -3,7 +3,7 @@ import styled from 'styled-components'
 /*                    App.js Styles                    */
 
 export const NameLogo = styled.div`
-  padding-bottom: 2rem;
+  padding: 2rem;
   a { 
     color: #e8e8e8;
     font-size: 12px;
@@ -38,7 +38,7 @@ export const Nav = styled.div`
 `
 
 export const Icons = styled.div`
-  padding: 2rem;
+  padding: 2rem 0;
   display: flex;
   flex-direction: column;
   .nav-link {
@@ -98,6 +98,8 @@ export const IconStyle = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 80px;
+  width: 80px;
 `
 
 export const ProjectsCardContainer = styled.div`
