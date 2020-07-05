@@ -56,6 +56,7 @@ export const PageWrapper = styled.div`
   display: flex;
   justify-content: center;
   background-color: #333436;
+  transition: opacity 1 ease-in;
 `
 
 export const PageInner = styled.div`
@@ -70,6 +71,21 @@ export const Content = styled.div`
   width: 100%;
   height: 100%;
   overflow: auto;
+  animation: transitionIn 3s;
+
+  @keyframes transitionIn {
+    from {
+      opacity: 0;
+      background: #333436;
+      z-index: 10000;
+      /* transform: translateY('-10deg'); */
+    }
+    to {
+      opacity: 1;
+      z-index: -1;
+      /* transform: translateY(0); */
+    }
+  }
 `
 
 /*                    Icons.js Styles                    */
@@ -152,6 +168,90 @@ export const SubHeader = styled.div`
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 `
 
+export const ProgressBar = styled.div`
+  margin: 50px auto 0;
+  padding: 20px;
+
+  .header {
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+  }
+  ul {
+  list-style: none;
+  li {
+    position: relative;
+    margin: 50px 0;
+    font-weight: 500;
+    text-transform: lowercase;
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: calc(100% + 10px);
+      left: 0;
+      width: 100%;
+      height: 10px;
+      background-color: #242425;
+      border-radius: 1000px;
+    }
+    &:after {
+      content: "";
+      position: absolute;
+      top: calc(100% + 10px);
+      left: 0;
+      width: 0;
+      height: 10px;
+      background-color: #faed27;
+      border-radius: 1000px;
+      animation-duration: 0.7s;
+      animation-timing-function: ease;
+      animation-fill-mode: forwards;
+    }
+  }
+  li.html:after {
+    animation-name: html;
+    @keyframes html {
+      to {
+        width: 90%;
+      }
+    }
+  }
+  li.js:after {
+    animation-name: js;
+    @keyframes js {
+      to {
+        width: 55%;
+      }
+    }
+  }
+  li.css:after {
+    animation-name: css;
+    @keyframes css {
+      to {
+        width: 90%;
+      }
+    }
+  }
+  li.scss:after {
+    animation-name: scss;
+    @keyframes scss {
+      to {
+        width: 90%;
+      }
+    }
+  }
+  li.react:after {
+    animation-name: react;
+    @keyframes react {
+      to {
+        width: 85%;
+      }
+    }
+  }
+}
+`
 
 /*                    Footer.js Styles                    */
 

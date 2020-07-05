@@ -9,7 +9,7 @@ export const Introduction = styled.div`
 
 export const Greetings = styled.div`
   min-height: 500px;
-  @media (max-width: 768px) {
+  /* @media (max-width: 768px) {
     min-height: 400px;
   }
   @media (max-width: 480px) {
@@ -17,7 +17,7 @@ export const Greetings = styled.div`
   }
   @media (max-width: 380px) {
     min-height: 400px;
-  }
+  } */
   height: 100%;
   display: flex;
   justify-content: center;
@@ -48,15 +48,15 @@ export const Greetings = styled.div`
       &:hover {
           color: #faed27;
           font-size: 122px;
-          transition: 0.2s ease;
+          transition: 0.1s ease;
           @media (max-width: 768px) {
-            font-size: 94px;
+            font-size: 92px;
           }
           @media (max-width: 480px) {
-            font-size: 74px;
+            font-size: 72px;
           }
           @media (max-width: 380px) {
-            font-size: 64px;
+            font-size: 62px;
           }
       }
   }
@@ -78,7 +78,6 @@ export default function Home() {
         <h3>I'm a Front End Web Developer. </h3>
         <p>This is my website, please feel welcomed to browse through it and learn more about me &amp; my work. Thank you for your time, enjoy!
                 And maybe you can help me improve my skills. If you have any feedback or ways that I can work on, you can always contact me, hit me up! Always open to your guys’ point of views.</p>
-
       </Introduction >
     </div >
   )
