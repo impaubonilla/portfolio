@@ -30,8 +30,8 @@ export const Greetings = styled.div`
       line-height: 1;
       font-size: 120px;
       @media (max-width: 768px) {
-        height: 92px;
-        font-size: 90px;
+        height: 132px;
+        font-size: 130px;
       }
       @media (max-width: 480px) {
         height: 90px;
@@ -50,7 +50,7 @@ export const Greetings = styled.div`
           font-size: 122px;
           transition: 0.1s ease;
           @media (max-width: 768px) {
-            font-size: 92px;
+            font-size: 132px;
           }
           @media (max-width: 480px) {
             font-size: 72px;
