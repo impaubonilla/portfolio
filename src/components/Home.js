@@ -41,6 +41,10 @@ export const Greetings = styled.div`
         height: 80px;
         font-size: 60px;
       }
+      @media (max-width: 320px) {
+        height: 70px;
+        font-size: 48px;
+      }
       font-weight: 100;
       transition: 0.3s ease;
       cursor: none;
@@ -57,6 +61,9 @@ export const Greetings = styled.div`
           }
           @media (max-width: 380px) {
             font-size: 62px;
+          }
+          @media (max-width: 320px) {
+            font-size: 50px;
           }
       }
   }

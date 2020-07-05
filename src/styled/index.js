@@ -26,7 +26,8 @@ export const Section = styled.div`
 `
 
 export const Nav = styled.div`
-  width: 400px;
+  position: fixed;
+  /* width: 400px; */
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -70,6 +71,10 @@ export const PageInner = styled.div`
 export const Content = styled.div`
   width: 100%;
   height: 100%;
+  padding-left: 254px;
+  @media (max-width: 768px) {
+    padding-left: 60px;
+  }
   overflow: auto;
   animation: transitionIn 3s;
 
