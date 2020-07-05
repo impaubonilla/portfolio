@@ -119,7 +119,7 @@ export const IconStyle = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80px;
+  height: 30px;
   width: 80px;
 `
 
