@@ -71,9 +71,9 @@ export const PageInner = styled.div`
 export const Content = styled.div`
   width: 100%;
   height: 100%;
-  padding-left: 254px;
+  margin-left: 254px;
   @media (max-width: 768px) {
-    padding-left: 60px;
+    margin-left: 60px;
   }
   overflow: auto;
   animation: transitionIn 3s;
@@ -158,6 +158,75 @@ export const GalleryCardContainer = styled(ProjectsCardContainer)`
     margin-bottom: 10rem;
     .face {
       background: #c4e0f9;}
+  }
+`
+
+/*                    Home.js Styles                    */
+
+export const Introduction = styled.div`
+  color: #e8e8e8;
+  margin: 0 2rem;
+`
+
+export const Greetings = styled.div`
+  min-height: 500px;
+  /* @media (max-width: 768px) {
+    min-height: 400px;
+  }
+  @media (max-width: 480px) {
+    min-height: 400px;
+  }
+  @media (max-width: 380px) {
+    min-height: 400px;
+  } */
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  h1 {
+      height: 122px;
+      min-width: 100%;
+      margin: 0;
+      font-family: 'Bungee Shade', cursive;
+      line-height: 1;
+      font-size: 120px;
+      @media (max-width: 768px) {
+        height: 132px;
+        font-size: 130px;
+      }
+      @media (max-width: 480px) {
+        height: 90px;
+        font-size: 70px;
+      }
+      @media (max-width: 380px) {
+        height: 80px;
+        font-size: 60px;
+      }
+      @media (max-width: 320px) {
+        height: 70px;
+        font-size: 48px;
+      }
+      font-weight: 100;
+      transition: 0.3s ease;
+      cursor: none;
+
+      &:hover {
+          color: #faed27;
+          font-size: 122px;
+          transition: 0.1s ease;
+          @media (max-width: 768px) {
+            font-size: 132px;
+          }
+          @media (max-width: 480px) {
+            font-size: 72px;
+          }
+          @media (max-width: 380px) {
+            font-size: 62px;
+          }
+          @media (max-width: 320px) {
+            font-size: 50px;
+          }
+      }
   }
 `
 
@@ -285,6 +354,37 @@ export const FooterContacts = styled.ul`
     margin-right: 10px;
   }
 `
+
+/*                    Video Styles                    */
+
+export const Video = styled.video`
+  width: 100%;
+`
+
+export const VideoWrapper = styled.div`
+  display: flex;
+  flex-direction: column-reverse;
+  /* justify-content: center; */
+  align-items: flex-start;
+  position: relative;
+`
+
+export const VideoHeader = styled.ul`
+  list-style: none;
+  color: #e8e8e8;
+  display: flex;
+  position: absolute;
+  padding: 25px;
+
+  li {
+      font-size: 32px;
+      font-weight: 600;
+      font-family: 'Libre Barcode 39 Extended Text', cursive;                   
+      letter-spacing: 3px;
+      text-transform: uppercase;
+  }
+`
+
 
 /*                    Social Media Styles                    */
 

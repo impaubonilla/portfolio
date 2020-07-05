@@ -1,73 +1,5 @@
 import React from 'react'
-import WelcomeBanner from './WelcomeBanner'
-import styled from 'styled-components'
-
-export const Introduction = styled.div`
-  color: #e8e8e8;
-  margin: 0 2rem;
-`
-
-export const Greetings = styled.div`
-  min-height: 500px;
-  /* @media (max-width: 768px) {
-    min-height: 400px;
-  }
-  @media (max-width: 480px) {
-    min-height: 400px;
-  }
-  @media (max-width: 380px) {
-    min-height: 400px;
-  } */
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  h1 {
-      height: 122px;
-      min-width: 100%;
-      margin: 0;
-      font-family: 'Bungee Shade', cursive;
-      line-height: 1;
-      font-size: 120px;
-      @media (max-width: 768px) {
-        height: 132px;
-        font-size: 130px;
-      }
-      @media (max-width: 480px) {
-        height: 90px;
-        font-size: 70px;
-      }
-      @media (max-width: 380px) {
-        height: 80px;
-        font-size: 60px;
-      }
-      @media (max-width: 320px) {
-        height: 70px;
-        font-size: 48px;
-      }
-      font-weight: 100;
-      transition: 0.3s ease;
-      cursor: none;
-
-      &:hover {
-          color: #faed27;
-          font-size: 122px;
-          transition: 0.1s ease;
-          @media (max-width: 768px) {
-            font-size: 132px;
-          }
-          @media (max-width: 480px) {
-            font-size: 72px;
-          }
-          @media (max-width: 380px) {
-            font-size: 62px;
-          }
-          @media (max-width: 320px) {
-            font-size: 50px;
-          }
-      }
-  }
-`
+import { Introduction, Greetings } from '../styled'
 
 export default function Home() {
   return (
@@ -84,8 +16,24 @@ export default function Home() {
 
         <h3>I'm a Front End Web Developer. </h3>
         <p>This is my website, please feel welcomed to browse through it and learn more about me &amp; my work. Thank you for your time, enjoy!
-                And maybe you can help me improve my skills. If you have any feedback or ways that I can work on, you can always contact me, hit me up! Always open to your guys’ point of views.</p>
+        And maybe you can help me improve my skills. If you have any feedback or ways that I can work on, you can always contact me, hit me up!
+        Always open to your guys’ point of views.</p>
       </Introduction >
     </div >
+  )
+}
+export const WelcomeBanner = () => {
+  return (
+    <div>
+      <section className="banner-section">
+        <div className="scroll text">
+          <h2 className="text-greetings">
+            Hello <span>Bonjour </span>你好 <span>สวัสดี </span>
+            Ciao <span>こんにちわ </span>Olá <span>שָׁלוֹם </span>
+            Kumusta  <span>안영 </span>Hola <span>Namastē </span>
+          </h2>
+        </div>
+      </section>
+    </div>
   )
 }
