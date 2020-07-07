@@ -1,5 +1,4 @@
 import React from 'react'
-import { Content } from '../styled'
 import styled from 'styled-components'
 import alchemist from '../images/gallery/alchemist.jpg'
 import lasubway from '../images/gallery/lasubway.jpg'
@@ -26,30 +25,14 @@ export const GalleryImageStyle = styled.img`
 export default function Gallery() {
     return (
         <GalleryWrapper>
-            <Content>
-                <GalleryImageStyle src={alchemist} alt="caffee" />
-            </Content>
-            <Content>
-                <GalleryImageStyle src={lasubway} alt="subway" />
-            </Content>
-            <Content>
-                <GalleryImageStyle src={bestfriends} alt="paper clip" />
-            </Content>
-            <Content>
-                <GalleryImageStyle src={ps4ctrl1} alt="ps4controller" />
-            </Content>
-            <Content>
-                <GalleryImageStyle src={bobatime} alt="bobatime" />
-            </Content>
-            <Content>
-                <GalleryImageStyle src={lakershat} alt="lakershat" />
-            </Content>
-            <Content>
-                <GalleryImageStyle src={converse} alt="converse" />
-            </Content>
-            <Content>
-                <GalleryImageStyle src={SF} alt="SF" />
-            </Content>
+            <GalleryImageStyle src={alchemist} alt="caffee" />
+            <GalleryImageStyle src={lasubway} alt="subway" />
+            <GalleryImageStyle src={bestfriends} alt="paper clip" />
+            <GalleryImageStyle src={ps4ctrl1} alt="ps4controller" />
+            <GalleryImageStyle src={bobatime} alt="bobatime" />
+            <GalleryImageStyle src={lakershat} alt="lakershat" />
+            <GalleryImageStyle src={converse} alt="converse" />
+            <GalleryImageStyle src={SF} alt="SF" />
         </GalleryWrapper>
     )
 }
