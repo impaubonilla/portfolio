@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4e80b47c.chunk.css",
+    "main.js": "/static/js/main.7baa90db.chunk.js",
+    "main.js.map": "/static/js/main.7baa90db.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f793350c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f793350c.js.map",
+    "static/js/2.7f6623ff.chunk.js": "/static/js/2.7f6623ff.chunk.js",
+    "static/js/2.7f6623ff.chunk.js.map": "/static/js/2.7f6623ff.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.91253a20cfb7dd84106db66fd384e670.js": "/precache-manifest.91253a20cfb7dd84106db66fd384e670.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.4e80b47c.chunk.css.map": "/static/css/main.4e80b47c.chunk.css.map",
+    "static/js/2.7f6623ff.chunk.js.LICENSE.txt": "/static/js/2.7f6623ff.chunk.js.LICENSE.txt",
+    "static/media/SF.jpeg": "/static/media/SF.21e4d7b9.jpeg",
+    "static/media/_white.png": "/static/media/_white.2b439e00.png",
+    "static/media/alchemist.jpg": "/static/media/alchemist.363b8266.jpg",
+    "static/media/baybayintagalog.mp4": "/static/media/baybayintagalog.97b5e3ca.mp4",
+    "static/media/bestfriends.jpg": "/static/media/bestfriends.9e4fe7bd.jpg",
+    "static/media/bobatime.jpeg": "/static/media/bobatime.8724bca5.jpeg",
+    "static/media/converse.jpeg": "/static/media/converse.ab4aee89.jpeg",
+    "static/media/lakershat.jpeg": "/static/media/lakershat.b847e36d.jpeg",
+    "static/media/lasubway.jpg": "/static/media/lasubway.25f3ff6b.jpg",
+    "static/media/ps4controller1.JPG": "/static/media/ps4controller1.134a25be.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f793350c.js",
+    "static/js/2.7f6623ff.chunk.js",
+    "static/css/main.4e80b47c.chunk.css",
+    "static/js/main.7baa90db.chunk.js"
+  ]
+}
