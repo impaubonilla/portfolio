@@ -129,7 +129,7 @@ $welcomeFont: "Cinzel", serif;
   color: #faed27;
 }
 
-/*                    WelcomeBanner.js Styles                    */
+/*                    Welcome Banner Styles                    */
 
 .banner-section {
   background-color: $neonYellow;
@@ -161,18 +161,18 @@ $welcomeFont: "Cinzel", serif;
   color: $mainbgcolor;
   animation: animate 25s linear infinite;
   animation-delay: -1s;
+
+  @keyframes animate {
+    0% {
+      transform: translateX(70%);
+    }
+    100% {
+      transform: translateX(-70%);
+    }
+  }
 }
 
 .banner-section .scroll .text-greetings span {
   -webkit-text-stroke: 0.75px $mainbgcolor;
   -webkit-text-fill-color: transparent;
-}
-
-@keyframes animate {
-  0% {
-    transform: translateX(70%);
-  }
-  100% {
-    transform: translateX(-70%);
-  }
 }
