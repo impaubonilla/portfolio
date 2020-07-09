@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7002f6ecb53ff62addabe38147d7db97",
+    "revision": "5bbaa53dd7448ef817440961e2bdb029",
     "url": "/index.html"
   },
   {
-    "revision": "f2231075ca723f34c945",
+    "revision": "36dffda66c8fed45dd70",
     "url": "/static/css/main.4e80b47c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.e3e24130.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f2231075ca723f34c945",
-    "url": "/static/js/main.5d19ae0c.chunk.js"
+    "revision": "36dffda66c8fed45dd70",
+    "url": "/static/js/main.9d02c7ca.chunk.js"
   },
   {
     "revision": "2df165a20f8c2d0709c4",
@@ -64,7 +64,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/ps4controller1.134a25be.JPG"
   },
   {
-    "revision": "d86bb976b7295ca308d8049ce8a22449",
-    "url": "/static/media/tic-tac-toe.d86bb976.png"
+    "revision": "72dc86a4be0bef681e394ba04dd11938",
+    "url": "/static/media/tic-tac-toe.72dc86a4.png"
   }
 ]);
