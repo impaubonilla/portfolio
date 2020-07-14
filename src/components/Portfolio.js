@@ -19,16 +19,14 @@ export default function Portfolio() {
             <SubHeader>This is my workspace and my personal station where I brainstorm and create my ideas. It’s also my productive area whenever I code or draw/edit photos and videos, in addition I can relax and play games.</SubHeader>
             <ProjectsCard />
             <BlogCard />
-            <SubHeader>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor, repudiandae. Quod dolorum similique beatae, id at debitis labore? Rerum est non adipisci doloremque voluptas. Maxime porro expedita magnam aspernatur nemo.</SubHeader>
+            <SubHeader>As much as I disliked reading and writing, a particular essay prompt given by my professor caught my attention when I went to study at LACC. Unexpectedly, I got a pretty high grade on this, hope you like it!</SubHeader>
             <GalerryCard />
             <ProgressBar>
-                <SubHeader></SubHeader>
+                <SubHeader>It can get tough but I enjoy the work process</SubHeader>
                 <div className="header">Technology</div>
                 <ul>
                     <li className="html">Html5 | Css3 | Sass</li>
                     <li className="js">Javascript</li>
-                    {/* <li className="css">Css3</li>
-                    <li className="scss">Scss</li> */}
                     <li className="react">React</li>
                 </ul>
             </ProgressBar>

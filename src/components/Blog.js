@@ -18,7 +18,6 @@ export const Paragraph = styled.p`
 export default function Blog() {
   return (
     <Section>
-      <p>I don't really write anything, except code, but this is one of my project when I went to LACC</p>
       <StoryTime />
     </Section>
   )

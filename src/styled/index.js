@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 
 /*                    App.js Styles                    */
 
@@ -130,6 +130,7 @@ export const ProjectsCardContainer = styled.div`
     color: #e8e8e8;
     .card {
         margin-top: 5rem;
+        width: 100%;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -165,6 +166,12 @@ export const GalleryCardContainer = styled(ProjectsCardContainer)`
 export const Introduction = styled.div`
   color: #e8e8e8;
   margin: 0 2rem;
+
+  div {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+  }
 
   a {
     padding: 10px;
@@ -332,6 +339,66 @@ export const ProgressBar = styled.div`
   }
 }
 `
+
+/*                    ProjectFiles.js Styles                    */
+
+export const ProjectWrapper = styled.div`
+  background-color: #e8e8e8;
+  color: #333436;
+
+  .desc {
+    margin: 1rem 0;
+    padding: 1rem;
+  }
+  .buttons {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    .li {
+      display: flex;
+      align-items: center;
+      margin: 2px 0;
+    }
+  }
+`
+
+export const ALink = styled.a`
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  ${({ primary }) => primary ?
+    css`
+      color: #e8e8e8;
+      background-color: #333436;
+      border: 1px solid #333436;
+      margin-right: 10px;
+      border-radius: 5px;
+      padding: 8px;
+      text-transform: uppercase;
+
+      &:hover {
+        color: #333436;
+        background-color: #e8e8e8;
+      }
+    ` :
+    css`
+      color: #333436;
+    `
+  }
+  p {
+    border-bottom: 1px solid #333436;
+  }
+`
+
+export const ProjectContent = styled.div`
+  display: flex;
+  flex-direction: column;
+`
+
+export const ProjcetImageStyle = styled.img`
+  width: 100%;
+`
+
 
 /*                    Footer.js Styles                    */
 

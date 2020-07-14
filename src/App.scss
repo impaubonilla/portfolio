@@ -8,6 +8,7 @@ $linen: #f9ebe0;
 $mainFont: "Comfortaa", cursive;
 $oldFont: "UnifrakturMaguntia", cursive;
 $welcomeFont: "Cinzel", serif;
+$sourceCode: "Source Code Pro", monospace;
 
 // font-family: 'Bungee Shade', cursive;
 // font-family: 'Cinzel', serif;
@@ -61,7 +62,7 @@ $welcomeFont: "Cinzel", serif;
   font-family: $mainFont;
   font-weight: 900;
   text-align: center;
-  font-size: 2rem;
+  font-size: 45px;
 }
 
 .container .card:hover .face.face1 .content1 {
@@ -74,7 +75,7 @@ $welcomeFont: "Cinzel", serif;
   height: 120px;
   padding: 20px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   box-sizing: border-box;
   transform: translateY(-00px);
 
@@ -85,19 +86,16 @@ $welcomeFont: "Cinzel", serif;
 }
 
 .container .card .face.face2 .content2 p {
-  color: #333436;
+  color: green;
   margin: 0;
   padding: 0;
-  font-family: $mainFont;
-  font-size: 12px;
-
-  @media (max-width: 768px) {
-    font-size: 10px;
-  }
+  font-family: $sourceCode;
+  font-size: 14px;
 }
 .container .card .face.face2 .content2 .alink {
   margin: 5px 0 0;
   padding: 1rem;
+  text-transform: lowercase;
   display: inline-block;
   text-decoration: none;
   font-family: $mainFont;

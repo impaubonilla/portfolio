@@ -18,7 +18,7 @@ export default function Home() {
         <p>This is my website, please feel welcomed to browse through it and learn more about me &amp; my work. Thank you for your time, enjoy!
         And maybe you can help me improve my skills. If you have any feedback or ways that I can work on, you can always contact me, hit me up!
         Always open to your guys’ point of views.</p>
-        <div>
+        <div className="">
           <a href="https://github.com/paubonilla" target="_blank" rel="noopener noreferrer">View Github</a>
         </div>
       </Introduction>

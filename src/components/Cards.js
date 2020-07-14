@@ -17,11 +17,9 @@ export const ProjectsCard = () => {
                 </div>
                 <div className="face face2">
                     <div className="content2">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Commodi impedit laboriosam, beatae unde facere architecto
-                        veritatis itaque excepturi iure cum iste.</p>
+                        <p>&#47;&#47; this is my projects component</p>
                         <Link className="alink" to="/projects">
-                            Read more
+                            View
                         </Link>
                     </div>
                 </div>
@@ -42,11 +40,9 @@ export const BlogCard = () => {
                 </div>
                 <div className="face face2">
                     <div className="content2">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Commodi impedit laboriosam, beatae unde facere architecto
-                        veritatis itaque excepturi iure cum iste.</p>
+                        <p>&#47;&#47; this is my blog page</p>
                         <Link className="alink" to="/blog">
-                            Read more
+                            View
                         </Link>
                     </div>
                 </div>
@@ -67,11 +63,9 @@ export const GalerryCard = () => {
                 </div>
                 <div className="face face2">
                     <div className="content2">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Commodi impedit laboriosam, beatae unde facere architecto
-                        veritatis itaque excepturi iure cum iste.</p>
+                        <p>&#47;&#47; this is my gallery container</p>
                         <Link className="alink" to="/gallery">
-                            Read more
+                            View
                         </Link>
                     </div>
                 </div>
