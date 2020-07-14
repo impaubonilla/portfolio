@@ -16,16 +16,13 @@ export default function Portfolio() {
                 </VideoHeader>
             </VideoWrapper>
 
-            <SubHeader>This is my workspace or my personal station where I brainstorm and create my ideas.
-            This is also my productive area whenever I code or draw or edit photos and videos.
-            Sometimes this is where I just relax and play games.</SubHeader>
+            <SubHeader>This is my workspace and my personal station where I brainstorm and create my ideas. It’s also my productive area whenever I code or draw/edit photos and videos, in addition I can relax and play games.</SubHeader>
             <ProjectsCard />
-            <SubHeader>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor, repudiandae. Quod dolorum similique beatae, id at debitis labore? Rerum est non adipisci doloremque voluptas. Maxime porro expedita magnam aspernatur nemo.</SubHeader>
             <BlogCard />
             <SubHeader>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor, repudiandae. Quod dolorum similique beatae, id at debitis labore? Rerum est non adipisci doloremque voluptas. Maxime porro expedita magnam aspernatur nemo.</SubHeader>
             <GalerryCard />
-            <SubHeader>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor, repudiandae. Quod dolorum similique beatae, id at debitis labore? Rerum est non adipisci doloremque voluptas. Maxime porro expedita magnam aspernatur nemo.</SubHeader>
             <ProgressBar>
+                <SubHeader></SubHeader>
                 <div className="header">Technology</div>
                 <ul>
                     <li className="html">Html5 | Css3 | Sass</li>

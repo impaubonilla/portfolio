@@ -155,7 +155,6 @@ export const BlogCardContainer = styled(ProjectsCardContainer)`
 
 export const GalleryCardContainer = styled(ProjectsCardContainer)`
   .card {
-    margin-bottom: 10rem;
     .face {
       background: #c4e0f9;}
   }
@@ -166,6 +165,12 @@ export const GalleryCardContainer = styled(ProjectsCardContainer)`
 export const Introduction = styled.div`
   color: #e8e8e8;
   margin: 0 2rem;
+
+  a {
+    padding: 10px;
+    border: 1px solid #e8e8e8;
+    color: #e8e8e8;
+  }
 `
 
 export const Greetings = styled.div`
@@ -234,6 +239,7 @@ export const Greetings = styled.div`
 
 export const SubHeader = styled.div`
   margin: 1rem 0;
+  width: 100%;
   padding: 0 1rem 1rem;
   color: #e8e8e8;
   display: flex;
@@ -296,7 +302,7 @@ export const ProgressBar = styled.div`
     animation-name: js;
     @keyframes js {
       to {
-        width: 55%;
+        width: 67%;
       }
     }
   }

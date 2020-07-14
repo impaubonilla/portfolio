@@ -89,7 +89,7 @@ export const Contacts = () => {
       <Subheader>Contacts</Subheader>
       <ContactsContainer>
         <ContactsStyle><a href="https://www.linkedin.com/in/paulo-bonilla-2375851aa/" target="_blank" rel="noopener noreferrer" className="linkedin">LinkedIn</a></ContactsStyle>
-        <ContactsStyle><a href="https://github.com/impaubonilla" target="_blank" rel="noopener noreferrer" className="github">GitHub</a></ContactsStyle>
+        <ContactsStyle><a href="https://github.com/paubonilla" target="_blank" rel="noopener noreferrer" className="github">GitHub</a></ContactsStyle>
         <ContactsStyle><a href="mailto:impaubonilla@gmail.com" target="_blank" rel="noopener noreferrer" className="email">Email</a></ContactsStyle>
         <ContactsStyle><a href="https://www.instagram.com/impaubonilla/" target="_blank" rel="noopener noreferrer" className="instagram">Instagram</a></ContactsStyle>
         <ContactsStyle><a href="https://www.twitter.com/pxixcv" target="_blank" rel="noopener noreferrer" className="twitter">Twitter</a></ContactsStyle>

@@ -5,7 +5,7 @@ import Projects from './components/Projects'
 import Gallery from './components/Gallery';
 import Blog from './components/Blog'
 import About from './components/About'
-import { HomeIcon, PortfolioIcon, ProjectsIcon, TechnologyIcon, BlogIcon, Height, AboutIcon } from './components/Icons'
+import { HomeIcon, PortfolioIcon, ProjectsIcon, BlogIcon, Height, AboutIcon } from './components/Icons'
 import { NameLogo, Nav, Content, PageWrapper, PageInner, Icons } from './styled'
 import './App.scss';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
@@ -26,7 +26,6 @@ function App() {
               <HomeIcon />
               <PortfolioIcon />
               <ProjectsIcon />
-              <TechnologyIcon />
               <BlogIcon />
               <Height />
               <AboutIcon />

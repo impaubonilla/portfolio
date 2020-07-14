@@ -47,18 +47,18 @@ export const ProjectsIcon = () => {
     )
 }
 
-export const TechnologyIcon = () => {
-    return (
-        <NavLink exact className="nav-link" activeClassName="active" to="/technology">
-            <IconWrapper>
-                <IconStyle>
-                    <Icon name="file code outline" />
-                </IconStyle>
-                <IconNameStyle>Technology</IconNameStyle>
-            </IconWrapper>
-        </NavLink>
-    )
-}
+// export const TechnologyIcon = () => {
+//     return (
+//         <NavLink exact className="nav-link" activeClassName="active" to="/technology">
+//             <IconWrapper>
+//                 <IconStyle>
+//                     <Icon name="file code outline" />
+//                 </IconStyle>
+//                 <IconNameStyle>Technology</IconNameStyle>
+//             </IconWrapper>
+//         </NavLink>
+//     )
+// }
 
 export const BlogIcon = () => {
     return (
@@ -106,7 +106,7 @@ export const GitHubIcon = () => {
     return (
         <>
             <IconWrapper>
-                <a href="https://github.com/impaubonilla" target="_blank" rel="noopener noreferrer"><Icon name='github' /></a>
+                <a href="https://github.com/paubonilla" target="_blank" rel="noopener noreferrer"><Icon name='github' /></a>
             </IconWrapper>
         </>
     )
