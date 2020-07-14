@@ -51,7 +51,7 @@ export const Bio = () => {
   return (
     <Section>
       <Subheader>Bio</Subheader>
-      <Text>Hello, my name is Paulo Feliciano Bonilla. I am a self taught and have a deep passion for programming and graphic design. Even sometimes it got really difficult ≈≈
+      <Text>Hello, my name is Paulo Feliciano Bonilla. I am a self taught and have a deep passion for programming and graphic design. Even sometimes it got really difficult
       I'm currently living in Los Angeles. I love listnening to music. I love to draw. 
       
       If you're interested to know more,
