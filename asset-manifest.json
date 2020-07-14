@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.7daeba32.chunk.css",
-    "main.js": "/static/js/main.132d4a18.chunk.js",
-    "main.js.map": "/static/js/main.132d4a18.chunk.js.map",
+    "main.css": "/static/css/main.5d3ec972.chunk.css",
+    "main.js": "/static/js/main.b926c99e.chunk.js",
+    "main.js.map": "/static/js/main.b926c99e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f793350c.js",
     "runtime-main.js.map": "/static/js/runtime-main.f793350c.js.map",
-    "static/js/2.e3e24130.chunk.js": "/static/js/2.e3e24130.chunk.js",
-    "static/js/2.e3e24130.chunk.js.map": "/static/js/2.e3e24130.chunk.js.map",
+    "static/js/2.5f476e50.chunk.js": "/static/js/2.5f476e50.chunk.js",
+    "static/js/2.5f476e50.chunk.js.map": "/static/js/2.5f476e50.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a048e4204ddf2403417b52564ec78e8a.js": "/precache-manifest.a048e4204ddf2403417b52564ec78e8a.js",
+    "precache-manifest.04a2c1caf9aba06f001484f796de44cc.js": "/precache-manifest.04a2c1caf9aba06f001484f796de44cc.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.7daeba32.chunk.css.map": "/static/css/main.7daeba32.chunk.css.map",
-    "static/js/2.e3e24130.chunk.js.LICENSE.txt": "/static/js/2.e3e24130.chunk.js.LICENSE.txt",
+    "static/css/main.5d3ec972.chunk.css.map": "/static/css/main.5d3ec972.chunk.css.map",
+    "static/js/2.5f476e50.chunk.js.LICENSE.txt": "/static/js/2.5f476e50.chunk.js.LICENSE.txt",
     "static/media/SF.jpeg": "/static/media/SF.21e4d7b9.jpeg",
     "static/media/_white.png": "/static/media/_white.2b439e00.png",
     "static/media/alchemist.jpg": "/static/media/alchemist.363b8266.jpg",
@@ -22,12 +22,12 @@
     "static/media/lakershat.jpeg": "/static/media/lakershat.b847e36d.jpeg",
     "static/media/lasubway.jpg": "/static/media/lasubway.25f3ff6b.jpg",
     "static/media/ps4controller1.JPG": "/static/media/ps4controller1.134a25be.JPG",
-    "static/media/tic-tac-toe.png": "/static/media/tic-tac-toe.72dc86a4.png"
+    "static/media/tic-tac-toe.png": "/static/media/tic-tac-toe.631d5a43.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f793350c.js",
-    "static/js/2.e3e24130.chunk.js",
-    "static/css/main.7daeba32.chunk.css",
-    "static/js/main.132d4a18.chunk.js"
+    "static/js/2.5f476e50.chunk.js",
+    "static/css/main.5d3ec972.chunk.css",
+    "static/js/main.b926c99e.chunk.js"
   ]
 }

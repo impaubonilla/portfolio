@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a4270bebc6fafca3d5e7fad55f96097c",
+    "revision": "aae7a8f10f2be1aa2481743901192c15",
     "url": "/index.html"
   },
   {
-    "revision": "2d53d56c02b408beab9b",
-    "url": "/static/css/main.7daeba32.chunk.css"
+    "revision": "09d357d75ed445c8c33a",
+    "url": "/static/css/main.5d3ec972.chunk.css"
   },
   {
-    "revision": "4543310fffa2f709932c",
-    "url": "/static/js/2.e3e24130.chunk.js"
+    "revision": "2c834eeddfc327238ed1",
+    "url": "/static/js/2.5f476e50.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/static/js/2.e3e24130.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.5f476e50.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2d53d56c02b408beab9b",
-    "url": "/static/js/main.132d4a18.chunk.js"
+    "revision": "09d357d75ed445c8c33a",
+    "url": "/static/js/main.b926c99e.chunk.js"
   },
   {
     "revision": "2df165a20f8c2d0709c4",
@@ -64,7 +64,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/ps4controller1.134a25be.JPG"
   },
   {
-    "revision": "72dc86a4be0bef681e394ba04dd11938",
-    "url": "/static/media/tic-tac-toe.72dc86a4.png"
+    "revision": "631d5a4383617109b269a0f8e036aa71",
+    "url": "/static/media/tic-tac-toe.631d5a43.png"
   }
 ]);
