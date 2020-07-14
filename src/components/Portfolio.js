@@ -22,7 +22,6 @@ export default function Portfolio() {
             <SubHeader>As much as I disliked reading and writing, a particular essay prompt given by my professor caught my attention when I went to study at LACC. Unexpectedly, I got a pretty high grade on this, hope you like it!</SubHeader>
             <GalerryCard />
             <ProgressBar>
-                <SubHeader>It can get tough but I enjoy the work process</SubHeader>
                 <div className="header">Technology</div>
                 <ul>
                     <li className="html">Html5 | Css3 | Sass</li>
