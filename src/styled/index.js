@@ -343,7 +343,7 @@ export const ProgressBar = styled.div`
 /*                    ProjectFiles.js Styles                    */
 
 export const ProjectWrapper = styled.div`
-  background-color: #e8e8e8;
+  background: #e8e8e8;
   color: #333436;
 
   .desc {
@@ -360,6 +360,11 @@ export const ProjectWrapper = styled.div`
       margin: 2px 0;
     }
   }
+`
+
+export const ProjectContent = styled.div`
+  display: flex;
+  flex-direction: column;
 `
 
 export const ALink = styled.a`
@@ -388,11 +393,6 @@ export const ALink = styled.a`
   p {
     border-bottom: 1px solid #333436;
   }
-`
-
-export const ProjectContent = styled.div`
-  display: flex;
-  flex-direction: column;
 `
 
 export const ProjcetImageStyle = styled.img`
