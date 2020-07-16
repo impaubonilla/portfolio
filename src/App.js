@@ -14,6 +14,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <Router>
+      {/* <Loader /> */}
       <PageWrapper>
         <PageInner>
           <Nav>
@@ -49,3 +50,13 @@ function App() {
 }
 
 export default App;
+
+// export const Loader = () => {
+//   return (
+//     <div className="loader">
+//       <span></span>
+//       <span></span>
+//       <span></span>
+//     </div>
+//   )
+// }
