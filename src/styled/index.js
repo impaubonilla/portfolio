@@ -349,6 +349,10 @@ export const ProjectWrapper = styled.div`
   .desc {
     margin: 1rem 0;
     padding: 1rem;
+    .subdesc {
+      color: rgb(0, 118, 0);
+      font-family: "Source Code Pro", monospace;
+    }
   }
   .buttons {
     list-style: none;
