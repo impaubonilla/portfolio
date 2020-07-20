@@ -345,6 +345,8 @@ export const ProgressBar = styled.div`
 export const ProjectWrapper = styled.div`
   background: #e8e8e8;
   color: #333436;
+  /* margin: 5rem 0; */
+  margin-bottom: 5rem;
 
   .desc {
     margin: 1rem 0;
