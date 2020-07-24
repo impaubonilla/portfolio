@@ -309,7 +309,7 @@ export const ProgressBar = styled.div`
     animation-name: js;
     @keyframes js {
       to {
-        width: 70%;
+        width: 75%;
       }
     }
   }
