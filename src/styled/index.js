@@ -301,7 +301,7 @@ export const ProgressBar = styled.div`
     animation-name: html;
     @keyframes html {
       to {
-        width: 90%;
+        width: 85%;
       }
     }
   }
@@ -309,7 +309,7 @@ export const ProgressBar = styled.div`
     animation-name: js;
     @keyframes js {
       to {
-        width: 67%;
+        width: 70%;
       }
     }
   }
@@ -333,7 +333,31 @@ export const ProgressBar = styled.div`
     animation-name: react;
     @keyframes react {
       to {
-        width: 85%;
+        width: 80%;
+      }
+    }
+  }
+  li.photoshop:after {
+    animation-name: photoshop;
+    @keyframes photoshop {
+      to {
+        width: 75%;
+      }
+    }
+  }
+  li.illustrator:after {
+    animation-name: illustrator;
+    @keyframes illustrator {
+      to {
+        width: 75%;
+      }
+    }
+  }
+  li.premiere-pro:after {
+    animation-name: premiere-pro;
+    @keyframes premiere-pro {
+      to {
+        width: 87%;
       }
     }
   }

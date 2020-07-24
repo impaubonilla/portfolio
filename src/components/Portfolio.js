@@ -28,6 +28,14 @@ export default function Portfolio() {
                     <li className="js">Javascript</li>
                     <li className="react">React</li>
                 </ul>
+                <br />
+                <br />
+                <div className="header">Skills</div>
+                <ul>
+                    <li className="photoshop">Photoshop</li>
+                    <li className="illustrator">Illustrator</li>
+                    <li className="premiere-pro">Premiere Pro</li>
+                </ul>
             </ProgressBar>
         </Section>
     )
