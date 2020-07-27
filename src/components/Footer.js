@@ -1,7 +1,7 @@
 import React from 'react'
 import { FooterStyle, FooterContainer, FooterContacts } from '../styled'
 import styled from 'styled-components'
-import { LinkedInIcon, GitHubIcon, EmailIcon, InstagramIcon, TwitterIcon } from './Icons'
+import { LinkedInIcon, GitHubIcon, EmailIcon, InstagramIcon, TwitterIcon } from '../icons/Icons'
 
 export const Copyright = styled.p`
   width: 130px;
@@ -30,11 +30,6 @@ export default function Footer() {
                         <InstagramIcon />
                         <TwitterIcon />
                     </FooterContacts>
-                    {/* <div>
-                    <p>"Seek his will in all you do,
-                 and he will show you which path to take."</p>
-                    <p>Proverbs 3:6 NLT</p>
-                </div> */}
                 </FooterContainer>
             </FooterStyle>
             <Baybayin>&#5897;&#5890;&#5902;&#5907; &#5898;&#5907;&#5896;&#5906;&#5902;&#5902;&#5888;</Baybayin>

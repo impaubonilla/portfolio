@@ -25,6 +25,10 @@ $sourceCode: "Source Code Pro", monospace;
   ::-webkit-scrollbar {
     display: none;
   }
+
+  &::selection {
+    background-color: #fff9a2;
+  }
 }
 
 /*                    Cards.js Styles                    */

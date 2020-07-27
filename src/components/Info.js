@@ -12,9 +12,12 @@ export const Section = styled.div`
 `
 
 export const Subheader = styled.h2`
+  display: inline;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 4px;
+  color: #333436;
+  background: #B3AD52;
 `
 
 export const Text = styled.p`
