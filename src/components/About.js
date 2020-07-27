@@ -1,5 +1,5 @@
 import React from 'react'
-import { Bio, Tools, Contacts } from './Info'
+import { Bio, Tools, Contacts } from './Info/index'
 import styled from 'styled-components'
 import self from '../images/self.jpg'
 

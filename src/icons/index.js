@@ -1,8 +1,8 @@
-import React from './node_modules/react'
+import React from 'react'
 import { IconWrapper, IconStyle, IconNameStyle } from '../styled'
-import { Icon } from './node_modules/semantic-ui-react'
-import { NavLink } from './node_modules/react-router-dom'
-import styled from './node_modules/styled-components'
+import { Icon } from 'semantic-ui-react'
+import { NavLink } from "react-router-dom"
+import styled from 'styled-components'
 
 const Margin2rem = styled.div`
   margin: 2rem;
