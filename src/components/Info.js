@@ -1,5 +1,5 @@
 import React from 'react'
-import { Instagram, Twitter, Facebook, YouTube, ContactsStyle } from '../../styled'
+import { Instagram, Twitter, Facebook, YouTube, ContactsStyle } from '../styled'
 import styled from 'styled-components'
 
 export const Section = styled.div`
