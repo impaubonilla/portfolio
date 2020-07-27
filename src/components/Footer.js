@@ -1,7 +1,7 @@
 import React from 'react'
 import { FooterStyle, FooterContainer, FooterContacts } from '../styled'
 import styled from 'styled-components'
-import { LinkedInIcon, GitHubIcon, EmailIcon, InstagramIcon, TwitterIcon } from '../icons'
+import { LinkedInIcon, GitHubIcon, EmailIcon, InstagramIcon, TwitterIcon } from '../Icons'
 
 export const Copyright = styled.p`
   width: 130px;

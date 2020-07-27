@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import Home from './components/Home'
 import Portfolio from './components/Portfolio'
 import Projects from './components/Projects'
@@ -6,10 +6,10 @@ import Technology from './components/Technology'
 import Gallery from './components/Gallery'
 import Blog from './components/Blog'
 import About from './components/About'
-import { HomeIcon, PortfolioIcon, ProjectsIcon, TechnologyIcon, BlogIcon, Height, AboutIcon } from './icons'
+import { HomeIcon, PortfolioIcon, ProjectsIcon, TechnologyIcon, BlogIcon, Height, AboutIcon } from './Icons'
 import { NameLogo, Nav, Content, PageWrapper, PageInner, Icons } from './styled'
-import './App.scss';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
+import './App.scss'
 import Footer from './components/Footer'
 
 function App() {

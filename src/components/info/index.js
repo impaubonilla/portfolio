@@ -1,6 +1,6 @@
-import React from 'react'
+import React from './node_modules/react'
 import { Instagram, Twitter, Facebook, YouTube, ContactsStyle } from '../../styled'
-import styled from 'styled-components'
+import styled from './node_modules/styled-components'
 
 export const Section = styled.div`
   margin-left: 15px;
