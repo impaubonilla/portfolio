@@ -37,7 +37,7 @@ export const DMVTest = () => {
           </p>
           <ul className="buttons">
             <li><ALink primary href="https://paubonilla.github.io/dmv-permit-practice-test/" target="_blank" rel="noopener noreferrer">Take Test</ALink></li>
-            <li><ALink href="https://github.com/paubonilla/dmv-permit-test" target="_blank" rel="noopener noreferrer"><p>View code</p></ALink></li>
+            <li><ALink href="https://github.com/paubonilla/dmv-permit-practice-test" target="_blank" rel="noopener noreferrer"><p>View code</p></ALink></li>
           </ul>
         </div>
       </ProjectContent>
