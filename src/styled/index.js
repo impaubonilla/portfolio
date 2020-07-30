@@ -27,7 +27,6 @@ export const Section = styled.div`
 
 export const Nav = styled.div`
   position: fixed;
-  /* width: 400px; */
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -62,8 +61,8 @@ export const PageWrapper = styled.div`
 
 export const PageInner = styled.div`
   display: flex;
-  max-width: 850px;
   width: 100%;
+  max-width: 850px;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
   border-right: 1px solid rgba(255, 255, 255, 0.1);
 `
@@ -83,12 +82,10 @@ export const Content = styled.div`
       opacity: 0;
       background: #333436;
       z-index: 10000;
-      /* transform: translateY('-10deg'); */
     }
     to {
       opacity: 1;
       z-index: -1;
-      /* transform: translateY(0); */
     }
   }
 `
@@ -124,28 +121,28 @@ export const IconStyle = styled.div`
 `
 
 export const ProjectsCardContainer = styled.div`
+  width: 100%;
+  position: relative;
+  display: flex;
+  color: #e8e8e8;
+  .card {
+    margin-top: 5rem;
     width: 100%;
-    position: relative;
     display: flex;
-    color: #e8e8e8;
-    .card {
-        margin-top: 5rem;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        position: relative;
-        border-top: 1px solid rgba(255, 255, 255, 0.1);
-        .face {
-          width: 100%;
-          height: 300px;
-          transition: 0.5s;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          background: #38618c;
-        }
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    .face {
+      width: 100%;
+      height: 300px;
+      transition: 0.5s;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #38618c;
     }
+  }
 `
 
 export const BlogCardContainer = styled(ProjectsCardContainer)`
@@ -181,64 +178,54 @@ export const Introduction = styled.div`
 `
 
 export const Greetings = styled.div`
-  /* min-height: 500px; */
-  /* @media (max-width: 768px) {
-    min-height: 400px;
-  }
-  @media (max-width: 480px) {
-    min-height: 400px;
-  }
-  @media (max-width: 380px) {
-    min-height: 400px;
-  } */
   height: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   h1 {
-      height: 122px;
-      min-width: 100%;
-      margin: 0;
-      font-family: 'Bungee Shade', cursive;
-      line-height: 1;
-      font-size: 114px;
+    color: #dcdcdc;
+    height: 122px;
+    min-width: 100%;
+    margin: 0;
+    font-family: 'Bungee Shade', cursive;
+    line-height: 1;
+    font-size: 114px;
+    @media (max-width: 768px) {
+      height: 132px;
+      font-size: 130px;
+    }
+    @media (max-width: 480px) {
+      height: 90px;
+      font-size: 60px;
+    }
+    @media (max-width: 380px) {
+      height: 80px;
+      font-size: 55px;
+    }
+    @media (max-width: 320px) {
+      height: 70px;
+      font-size: 43px;
+    }
+    font-weight: 100;
+    transition: 0.3s ease;
+    cursor: none;
+    &:hover {
+      color: #faed27;
+      font-size: 118px;
+      transition: 0.1s ease;
       @media (max-width: 768px) {
-        height: 132px;
-        font-size: 130px;
+        font-size: 132px;
       }
       @media (max-width: 480px) {
-        height: 90px;
-        font-size: 60px;
+        font-size: 65px;
       }
       @media (max-width: 380px) {
-        height: 80px;
-        font-size: 55px;
+        font-size: 58px;
       }
       @media (max-width: 320px) {
-        height: 70px;
-        font-size: 43px;
+        font-size: 45px;
       }
-      font-weight: 100;
-      transition: 0.3s ease;
-      cursor: none;
-
-      &:hover {
-          color: #faed27;
-          font-size: 118px;
-          transition: 0.1s ease;
-          @media (max-width: 768px) {
-            font-size: 132px;
-          }
-          @media (max-width: 480px) {
-            font-size: 65px;
-          }
-          @media (max-width: 380px) {
-            font-size: 58px;
-          }
-          @media (max-width: 320px) {
-            font-size: 45px;
-          }
-      }
+    }
   }
 `
 
@@ -261,6 +248,12 @@ export const ProgressBar = styled.div`
 
   .header {
     font-size: 30px;
+    @media (max-width: 480px) {
+      font-size: 25px;
+    }
+    @media (max-width: 320px) {
+      font-size: 20px;
+    }
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 8px;
@@ -309,7 +302,7 @@ export const ProgressBar = styled.div`
     animation-name: js;
     @keyframes js {
       to {
-        width: 75%;
+        width: 80%;
       }
     }
   }
@@ -369,12 +362,14 @@ export const ProgressBar = styled.div`
 export const ProjectWrapper = styled.div`
   background: #e8e8e8;
   color: #333436;
-  /* margin: 5rem 0; */
   margin-bottom: 5rem;
 
   .desc {
     margin: 1rem 0;
     padding: 1rem;
+    .header {
+      color: #696969;
+    }
     .subdesc {
       color: rgb(0, 118, 0);
       font-family: "Source Code Pro", monospace;
@@ -442,10 +437,17 @@ export const FooterStyle = styled.div`
   height: 100px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  @media (max-width: 320px) {
+    flex-direction: column;
+    justify-content: center;
+  }
 `
 
 export const FooterContainer = styled.div`
   padding: 1rem;
+  @media (max-width: 320px) {
+    padding: 0;
+  }
 `
 
 export const FooterContacts = styled.ul`
@@ -467,7 +469,6 @@ export const Video = styled.video`
 export const VideoWrapper = styled.div`
   display: flex;
   flex-direction: column-reverse;
-  /* justify-content: center; */
   align-items: flex-start;
   position: relative;
 `
@@ -478,9 +479,11 @@ export const VideoHeader = styled.ul`
   display: flex;
   position: absolute;
   padding: 25px;
-
   li {
       font-size: 32px;
+      @media (max-width: 320px) {
+        font-size: 28px;
+      }
       font-weight: 600;
       font-family: 'Libre Barcode 39 Extended Text', cursive;                   
       letter-spacing: 3px;
@@ -494,7 +497,6 @@ export const VideoHeader = styled.ul`
 export const Instagram = styled.a.attrs(props => ({
   href: "https://www.instagram.com/impaubonilla/", target: "_blank", rel: "noopener noreferrer"
 }))`
-  /* text-decoration: none;  */
   color: #e8e8e8;
   &:hover {
     transition: 0.1s;

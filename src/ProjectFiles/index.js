@@ -9,7 +9,7 @@ export const TicTacToe = () => {
       <ProjectContent>
         <ProjcetImageStyle src={ttt} alt="tic tac toe" />
         <div className="desc">
-          <h2>Tic Tac Toe</h2>
+          <h2 className="header">Tic Tac Toe</h2>
           <p>A The Office theme tic tac toe game. This game is built with React, HTML5, CSS3, SASS, Styled Components, and Javascript.
            <br />
             <p className="subdesc">&#47;&#47; it is responsive</p>
@@ -30,7 +30,7 @@ export const DMVTest = () => {
       <ProjectContent>
         <ProjcetImageStyle src={dmv} alt="dmv permit practice test" />
         <div className="desc">
-          <h2>DMV Permit Practice Test</h2>
+          <h2 className="header">DMV Permit Practice Test</h2>
           <p>This test is built with React, HTML5, CSS3, Styled Components, and Javascript.
           <br />
             <p className="subdesc">&#47;&#47; this is a work in progess project</p>

@@ -3,9 +3,7 @@ import { Instagram, Twitter, Facebook, YouTube, ContactsStyle } from '../styled'
 import styled from 'styled-components'
 
 export const Section = styled.div`
-  margin-left: 15px;
-  margin-right: 15px;
-  /* border-top: 1px solid rgba(255, 255, 255, 0.1); */
+  margin: 15px 15px 0 15px;
   h4 {
       font-weight: 400;
   }
@@ -30,11 +28,19 @@ export const Text = styled.p`
 export const ToolsContainer = styled.ul`
   list-style: none;
   display: flex;
+  @media (max-width: 320px) {
+    /* flex-direction: column; */
+    align-items: center;
+    flex-wrap: wrap;
+    display: inline-flex;
+  }
   margin: 1rem;
 `
 
-export const Lang = styled.ul`
-  display: flex;
+export const Lang = styled.li`
+  @media (max-width: 320px) {
+    margin-bottom: 10px;
+  }
   align-items: center;
   border-radius: 3px;
   font-size: 12px;
@@ -46,6 +52,12 @@ export const Lang = styled.ul`
 export const ContactsContainer = styled.ul`
   list-style: none;
   display: flex;
+  @media (max-width: 480px) {
+    flex-wrap: wrap;
+  }
+  @media (max-width: 320px) {
+    flex-wrap: wrap;
+  }
   margin-top: 1rem;
   margin-bottom: 1rem;
 `

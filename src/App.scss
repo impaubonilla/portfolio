@@ -5,6 +5,15 @@ $sampleColor: #2d728f;
 $secSampleColor: #546a7b;
 $redCrayola: #ef2d56;
 $linen: #f9ebe0;
+
+// grey color code
+$gainboro: #dcdcdc;
+$lightgrey: #d3d3d3;
+$silver: #c0c0c0;
+$darkgrey: #a9a9a9;
+$grey: #808080;
+$dimgrey: #696969;
+
 $mainFont: "Comfortaa", cursive;
 $oldFont: "UnifrakturMaguntia", cursive;
 $welcomeFont: "Cinzel", serif;
@@ -25,7 +34,6 @@ $sourceCode: "Source Code Pro", monospace;
   ::-webkit-scrollbar {
     display: none;
   }
-
   &::selection {
     background-color: #fff9a2;
   }
