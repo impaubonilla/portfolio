@@ -208,7 +208,7 @@ export const Greetings = styled.div`
       }
       @media (max-width: 480px) {
         height: 90px;
-        font-size: 65px;
+        font-size: 60px;
       }
       @media (max-width: 380px) {
         height: 80px;
@@ -230,7 +230,7 @@ export const Greetings = styled.div`
             font-size: 132px;
           }
           @media (max-width: 480px) {
-            font-size: 70px;
+            font-size: 65px;
           }
           @media (max-width: 380px) {
             font-size: 58px;
