@@ -9,7 +9,7 @@ export default function Home() {
 
         <Greetings>
           <h1>Hello</h1>
-          <h1>there,</h1>
+          <h1>world,</h1>
           <h1>I'm</h1>
           <h1>Paulo</h1>
         </Greetings>
