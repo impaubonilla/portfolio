@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "87059b76d331af5ed4e5e42320f9708d",
+    "revision": "8bbd2286b43df6f6f2858b08c93071cb",
     "url": "/index.html"
   },
   {
-    "revision": "012427d4ba9c58ca5b19",
-    "url": "/static/css/main.d21af818.chunk.css"
+    "revision": "7164e89d644e5d13e0dd",
+    "url": "/static/css/main.1168f3f9.chunk.css"
   },
   {
-    "revision": "76dc22dba47702be6eb1",
-    "url": "/static/js/2.4458be28.chunk.js"
+    "revision": "83d7c12d4b5179b80129",
+    "url": "/static/js/2.a288be36.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/static/js/2.4458be28.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.a288be36.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "012427d4ba9c58ca5b19",
-    "url": "/static/js/main.186c64cb.chunk.js"
+    "revision": "7164e89d644e5d13e0dd",
+    "url": "/static/js/main.7fa2992d.chunk.js"
   },
   {
     "revision": "2df165a20f8c2d0709c4",
@@ -48,6 +48,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/converse.ab4aee89.jpeg"
   },
   {
+    "revision": "9d74a399e0a9de4fdc48a59159c833a3",
+    "url": "/static/media/dell-ultrasharp-U2718Q.9d74a399.jpg"
+  },
+  {
     "revision": "94bc84381f1811a25295996918d7cda0",
     "url": "/static/media/dmv-test.94bc8438.png"
   },
@@ -58,6 +62,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "25f3ff6bbb6faa20cea33389c4301452",
     "url": "/static/media/lasubway.25f3ff6b.jpg"
+  },
+  {
+    "revision": "432ca1d48f4694a4497e6c05bece1fe4",
+    "url": "/static/media/macbook-pro-2019.432ca1d4.jpg"
   },
   {
     "revision": "134a25be0910783eac407345cf6ef1fc",

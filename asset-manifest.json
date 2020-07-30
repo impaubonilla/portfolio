@@ -1,34 +1,36 @@
 {
   "files": {
-    "main.css": "/static/css/main.d21af818.chunk.css",
-    "main.js": "/static/js/main.186c64cb.chunk.js",
-    "main.js.map": "/static/js/main.186c64cb.chunk.js.map",
+    "main.css": "/static/css/main.1168f3f9.chunk.css",
+    "main.js": "/static/js/main.7fa2992d.chunk.js",
+    "main.js.map": "/static/js/main.7fa2992d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f793350c.js",
     "runtime-main.js.map": "/static/js/runtime-main.f793350c.js.map",
-    "static/js/2.4458be28.chunk.js": "/static/js/2.4458be28.chunk.js",
-    "static/js/2.4458be28.chunk.js.map": "/static/js/2.4458be28.chunk.js.map",
+    "static/js/2.a288be36.chunk.js": "/static/js/2.a288be36.chunk.js",
+    "static/js/2.a288be36.chunk.js.map": "/static/js/2.a288be36.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.cb14d6a064b9b4be124891f72c9d66f2.js": "/precache-manifest.cb14d6a064b9b4be124891f72c9d66f2.js",
+    "precache-manifest.30271b5ea34c07bc0869a40a89b8339c.js": "/precache-manifest.30271b5ea34c07bc0869a40a89b8339c.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.d21af818.chunk.css.map": "/static/css/main.d21af818.chunk.css.map",
-    "static/js/2.4458be28.chunk.js.LICENSE.txt": "/static/js/2.4458be28.chunk.js.LICENSE.txt",
+    "static/css/main.1168f3f9.chunk.css.map": "/static/css/main.1168f3f9.chunk.css.map",
+    "static/js/2.a288be36.chunk.js.LICENSE.txt": "/static/js/2.a288be36.chunk.js.LICENSE.txt",
     "static/media/SF.jpeg": "/static/media/SF.21e4d7b9.jpeg",
     "static/media/alchemist.jpg": "/static/media/alchemist.363b8266.jpg",
     "static/media/baybayintagalog.mp4": "/static/media/baybayintagalog.97b5e3ca.mp4",
     "static/media/bestfriends.jpg": "/static/media/bestfriends.9e4fe7bd.jpg",
     "static/media/bobatime.jpeg": "/static/media/bobatime.8724bca5.jpeg",
     "static/media/converse.jpeg": "/static/media/converse.ab4aee89.jpeg",
+    "static/media/dell-ultrasharp-U2718Q.jpg": "/static/media/dell-ultrasharp-U2718Q.9d74a399.jpg",
     "static/media/dmv-test.png": "/static/media/dmv-test.94bc8438.png",
     "static/media/lakershat.jpeg": "/static/media/lakershat.b847e36d.jpeg",
     "static/media/lasubway.jpg": "/static/media/lasubway.25f3ff6b.jpg",
+    "static/media/macbook-pro-2019.jpg": "/static/media/macbook-pro-2019.432ca1d4.jpg",
     "static/media/ps4controller1.JPG": "/static/media/ps4controller1.134a25be.JPG",
     "static/media/self.jpg": "/static/media/self.7b79d294.jpg",
     "static/media/tic-tac-toe.png": "/static/media/tic-tac-toe.631d5a43.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f793350c.js",
-    "static/js/2.4458be28.chunk.js",
-    "static/css/main.d21af818.chunk.css",
-    "static/js/main.186c64cb.chunk.js"
+    "static/js/2.a288be36.chunk.js",
+    "static/css/main.1168f3f9.chunk.css",
+    "static/js/main.7fa2992d.chunk.js"
   ]
 }
