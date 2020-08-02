@@ -125,6 +125,9 @@ export const ProjectsCardContainer = styled.div`
   position: relative;
   display: flex;
   color: #e8e8e8;
+  > img {
+    pointer-events: none;
+  }
   .card {
     margin-top: 5rem;
     width: 100%;
@@ -422,6 +425,7 @@ export const ALink = styled.a`
 
 export const ProjcetImageStyle = styled.img`
   width: 100%;
+  pointer-events: none;
 `
 
 
@@ -464,6 +468,7 @@ export const FooterContacts = styled.ul`
 
 export const Video = styled.video`
   width: 100%;
+  pointer-events: none;
 `
 
 export const VideoWrapper = styled.div`

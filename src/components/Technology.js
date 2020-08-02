@@ -11,11 +11,16 @@ export const TechWrapper = styled.div`
   background: #ffffff;
 `
 
+export const TechImg = styled.img`
+  height: 100%;
+  max-height: 500px;
+`
+
 export default function Technology() {
     return (
         <TechWrapper>
-            <img src={macbookPro} alt="macbook-pro-2019" />
-            <img src={dell} alt="dell-ultrasharp-U2718Q" />
+            <TechImg src={macbookPro} alt="macbook-pro-2019" />
+            <TechImg src={dell} alt="dell-ultrasharp-U2718Q" />
         </TechWrapper>
     )
 }

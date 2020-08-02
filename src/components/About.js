@@ -16,7 +16,7 @@ export const DPContainer = styled.div`
     height: 80vh;
   }
   @media (max-width: 480px) {
-    height: 40vh;
+    height: 45vh;
   }
   @media (max-width: 320px) {
     height: 30vh;
@@ -26,6 +26,7 @@ export const DPContainer = styled.div`
 
 export const DisplayPicture = styled.img`
   width: 100%;
+  pointer-events: none;
 `
 
 export default function About() {
