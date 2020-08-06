@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.1168f3f9.chunk.css",
-    "main.js": "/static/js/main.dadb7714.chunk.js",
-    "main.js.map": "/static/js/main.dadb7714.chunk.js.map",
+    "main.js": "/static/js/main.d934304c.chunk.js",
+    "main.js.map": "/static/js/main.d934304c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f793350c.js",
     "runtime-main.js.map": "/static/js/runtime-main.f793350c.js.map",
-    "static/js/2.a288be36.chunk.js": "/static/js/2.a288be36.chunk.js",
-    "static/js/2.a288be36.chunk.js.map": "/static/js/2.a288be36.chunk.js.map",
+    "static/js/2.99f4b23b.chunk.js": "/static/js/2.99f4b23b.chunk.js",
+    "static/js/2.99f4b23b.chunk.js.map": "/static/js/2.99f4b23b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.aac7132773a7820946153ecea220ee5c.js": "/precache-manifest.aac7132773a7820946153ecea220ee5c.js",
+    "precache-manifest.984c4c160fb34ba98f6543a7d18f0a58.js": "/precache-manifest.984c4c160fb34ba98f6543a7d18f0a58.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.1168f3f9.chunk.css.map": "/static/css/main.1168f3f9.chunk.css.map",
-    "static/js/2.a288be36.chunk.js.LICENSE.txt": "/static/js/2.a288be36.chunk.js.LICENSE.txt",
+    "static/js/2.99f4b23b.chunk.js.LICENSE.txt": "/static/js/2.99f4b23b.chunk.js.LICENSE.txt",
     "static/media/SF.jpeg": "/static/media/SF.21e4d7b9.jpeg",
     "static/media/alchemist.jpg": "/static/media/alchemist.363b8266.jpg",
     "static/media/baybayintagalog.mp4": "/static/media/baybayintagalog.97b5e3ca.mp4",
@@ -25,12 +25,13 @@
     "static/media/macbook-pro-2019.jpg": "/static/media/macbook-pro-2019.432ca1d4.jpg",
     "static/media/ps4controller1.JPG": "/static/media/ps4controller1.134a25be.JPG",
     "static/media/self.jpg": "/static/media/self.7b79d294.jpg",
-    "static/media/tic-tac-toe.png": "/static/media/tic-tac-toe.fc0f7fb4.png"
+    "static/media/simple-weather.png": "/static/media/simple-weather.be21a9a4.png",
+    "static/media/the-office-tic-tac-toe.png": "/static/media/the-office-tic-tac-toe.9b4e2e84.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f793350c.js",
-    "static/js/2.a288be36.chunk.js",
+    "static/js/2.99f4b23b.chunk.js",
     "static/css/main.1168f3f9.chunk.css",
-    "static/js/main.dadb7714.chunk.js"
+    "static/js/main.d934304c.chunk.js"
   ]
 }
