@@ -1,7 +1,7 @@
 import React from 'react'
-import { ProjectWrapper, ALink, ProjectContent, ProjcetImageStyle } from '../styled'
-import ttt from '../images/projects/tic-tac-toe.png'
-import dmv from '../images/projects/dmv-test.png'
+import { ProjectWrapper, ALink, ProjectContent, ProjcetImageStyle } from '../ProjectFiles/index'
+import ttt from '../../images/projects/tic-tac-toe.png'
+import dmv from '../../images/projects/dmv-test.png'
 
 export const TicTacToe = () => {
   return (

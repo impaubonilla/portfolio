@@ -1,19 +1,7 @@
 import React from 'react'
-import { FooterStyle, FooterContainer, FooterContacts } from '../styled'
-import styled from 'styled-components'
-import { LinkedInIcon, GitHubIcon, EmailIcon, InstagramIcon, TwitterIcon } from '../icons'
+import { FooterStyle, FooterContainer, FooterContacts, Copyright, Baybayin } from '../Footer/index'
+import { LinkedInIcon, GitHubIcon, EmailIcon, InstagramIcon, TwitterIcon } from '../../Icons/Icons'
 
-export const Copyright = styled.p`
-  width: 130px;
-  font-weight: 600;
-  letter-spacing: 3px;
-`
-
-export const Baybayin = styled.div`
-  color: #e8e8e8;
-  margin: 0 1rem 1rem;
-  letter-spacing: 3px;
-`
 
 export default function Footer() {
     return (

@@ -1,7 +1,7 @@
 import React from 'react'
-import { IconWrapper, IconStyle, IconNameStyle } from '../styled'
+import { IconWrapper, IconStyle, IconNameStyle } from '../Icons/index'
 import { Icon } from 'semantic-ui-react'
-import { NavLink } from "react-router-dom"
+import { NavLink } from 'react-router-dom'
 import styled from 'styled-components'
 
 const Margin2rem = styled.div`

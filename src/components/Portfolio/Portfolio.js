@@ -1,11 +1,11 @@
 import React from 'react'
-import { Section, SubHeader, Video, VideoWrapper, VideoHeader, ProgressBar } from '../styled'
-import { ProjectsCard, BlogCard, GalerryCard } from './Cards'
-import baybayin from '../videos/baybayintagalog.mp4'
+import { PortfolioContainer, SubHeader, Video, VideoWrapper, VideoHeader, ProgressBar } from '../Portfolio/index'
+import { ProjectsCard, BlogCard, GalerryCard } from '../Cards/Cards'
+import baybayin from '../../videos/baybayintagalog.mp4'
 
 export default function Portfolio() {
     return (
-        <Section>
+        <PortfolioContainer>
 
             <VideoWrapper>
                 <Video playsInline autoPlay loop muted preload="none">
@@ -37,6 +37,6 @@ export default function Portfolio() {
                     <li className="premiere-pro">Premiere Pro</li>
                 </ul>
             </ProgressBar>
-        </Section>
+        </PortfolioContainer>
     )
 }

@@ -1,70 +1,10 @@
 import React from 'react'
-import { Instagram, Twitter, Facebook, YouTube, ContactsStyle } from '../styled'
-import styled from 'styled-components'
-
-export const Section = styled.div`
-  margin: 15px 15px 0 15px;
-  h4 {
-      font-weight: 400;
-  }
-`
-
-export const Subheader = styled.h2`
-  display: inline;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  color: #333436;
-  background: #B3AD52;
-`
-
-export const Text = styled.p`
-  padding: 1rem;
-  a {
-    text-decoration: none;
-  }
-`
-
-export const ToolsContainer = styled.ul`
-  list-style: none;
-  display: flex;
-  @media (max-width: 320px) {
-    /* flex-direction: column; */
-    align-items: center;
-    flex-wrap: wrap;
-    display: inline-flex;
-  }
-  margin: 1rem;
-`
-
-export const Lang = styled.li`
-  @media (max-width: 320px) {
-    margin-bottom: 10px;
-  }
-  align-items: center;
-  border-radius: 3px;
-  font-size: 12px;
-  padding: 8px;
-  margin-right: 1rem;
-  background-color: #222222;
-`
-
-export const ContactsContainer = styled.ul`
-  list-style: none;
-  display: flex;
-  @media (max-width: 480px) {
-    flex-wrap: wrap;
-  }
-  @media (max-width: 320px) {
-    flex-wrap: wrap;
-  }
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-`
+import { Instagram, Twitter, Facebook, YouTube, ContactsStyle } from '../../styled'
+import { InfoContainer, Subheader, Text, ToolsContainer, Lang, ContactsContainer } from '../Info/index'
 
 export const Bio = () => {
   return (
-    <Section>
+    <InfoContainer>
       <Subheader>Bio</Subheader>
       <Text>Hello, my name is Paulo Feliciano Bonilla. I have a deep passion for programming and graphic design. I am self taught, it gets really difficult sometimes however I learned that it’s a part of my process and I am learning how to enjoy it. I have mentors by my side showing me all the resources I needed and they have helped me start my foundation. For example, I’ve skillfully acquired the knowledge of Javascript, HTML, CSS</Text>
       <Text>
@@ -74,13 +14,13 @@ export const Bio = () => {
       I have <Twitter>Twitter</Twitter> as well, but I don't tweet frequently and yes,
       I have <Facebook>Facebook</Facebook> and <YouTube>YouTube</YouTube>, too!
       </Text>
-    </Section>
+    </InfoContainer>
   )
 }
 
 export const Tools = () => {
   return (
-    <Section>
+    <InfoContainer>
       <Subheader>Tools</Subheader>
       <h4>Languages:</h4>
       <ToolsContainer>
@@ -94,13 +34,13 @@ export const Tools = () => {
         <Lang>react.js</Lang>
         <Lang>node.js</Lang>
       </ToolsContainer>
-    </Section>
+    </InfoContainer>
   )
 }
 
 export const Contacts = () => {
   return (
-    <Section>
+    <InfoContainer>
       <Subheader>Contacts</Subheader>
       <ContactsContainer>
         <ContactsStyle><a href="https://www.linkedin.com/in/paulo-bonilla-2375851aa/" target="_blank" rel="noopener noreferrer" className="linkedin">LinkedIn</a></ContactsStyle>
@@ -109,6 +49,6 @@ export const Contacts = () => {
         <ContactsStyle><a href="https://www.instagram.com/impaubonilla/" target="_blank" rel="noopener noreferrer" className="instagram">Instagram</a></ContactsStyle>
         <ContactsStyle><a href="https://www.twitter.com/pxixcv" target="_blank" rel="noopener noreferrer" className="twitter">Twitter</a></ContactsStyle>
       </ContactsContainer>
-    </Section >
+    </InfoContainer >
   )
 }

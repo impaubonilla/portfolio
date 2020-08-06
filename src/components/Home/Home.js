@@ -1,5 +1,5 @@
 import React from 'react'
-import { Introduction, Greetings } from '../styled'
+import { Introduction, Greetings } from '../Home/index'
 
 export default function Home() {
   return (

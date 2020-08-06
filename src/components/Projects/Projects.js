@@ -1,6 +1,6 @@
 import React from 'react'
-import { TicTacToe } from '../ProjectFiles'
-import { DMVTest } from '../ProjectFiles'
+import { TicTacToe } from '../ProjectFiles/ProjectFiles'
+import { DMVTest } from '../ProjectFiles/ProjectFiles'
 
 export default function Projects() {
     return (
