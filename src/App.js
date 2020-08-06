@@ -22,7 +22,7 @@ function App() {
             <Icons>
               <NameLogo>
                 <Link to="/">
-                  Paulo Bonilla test
+                  Paulo Bonilla
                 </Link>
               </NameLogo>
               <HomeIcon />
