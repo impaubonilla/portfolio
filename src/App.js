@@ -6,11 +6,11 @@ import Technology from './components/Technology/Technology'
 import Gallery from './components/Gallery/Gallery'
 import Blog from './components/Blog/Blog'
 import About from './components/About/About'
+import Footer from './components/Footer/Footer'
 import { HomeIcon, PortfolioIcon, ProjectsIcon, TechnologyIcon, BlogIcon, Height, AboutIcon } from './components/Icons/Icons'
 import { NameLogo, Nav, Content, PageWrapper, PageInner, Icons } from './styled'
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 import './App.scss'
-import Footer from './components/Footer/Footer'
 
 function App() {
   return (
