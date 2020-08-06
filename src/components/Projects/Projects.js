@@ -1,12 +1,12 @@
 import React from 'react'
-import { TicTacToe } from '../ProjectFiles/ProjectFiles'
-import { DMVTest } from '../ProjectFiles/ProjectFiles'
+import { TicTacToe, DMVTest, SimpleWeather } from '../ProjectFiles/ProjectFiles'
 
 export default function Projects() {
     return (
         <div>
             <TicTacToe />
             <DMVTest />
+            <SimpleWeather />
         </div>
     )
 }

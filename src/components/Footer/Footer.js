@@ -1,6 +1,6 @@
 import React from 'react'
 import { FooterStyle, FooterContainer, FooterContacts, Copyright, Baybayin } from '../Footer/index'
-import { LinkedInIcon, GitHubIcon, EmailIcon, InstagramIcon, TwitterIcon } from '../../Icons/Icons'
+import { LinkedInIcon, GitHubIcon, EmailIcon, InstagramIcon, TwitterIcon } from '../Icons/Icons'
 
 
 export default function Footer() {

@@ -1,7 +1,8 @@
 import React from 'react'
 import { ProjectWrapper, ALink, ProjectContent, ProjcetImageStyle } from '../ProjectFiles/index'
-import ttt from '../../images/projects/tic-tac-toe.png'
+import ttt from '../../images/projects/the-office-tic-tac-toe.png'
 import dmv from '../../images/projects/dmv-test.png'
+import weather from '../../images/projects/simple-weather.png'
 
 export const TicTacToe = () => {
   return (
@@ -38,6 +39,27 @@ export const DMVTest = () => {
           <ul className="buttons">
             <li><ALink primary href="https://paubonilla.github.io/dmv-permit-practice-test/" target="_blank" rel="noopener noreferrer">Take Test</ALink></li>
             <li><ALink href="https://github.com/paubonilla/dmv-permit-practice-test" target="_blank" rel="noopener noreferrer"><p>View code</p></ALink></li>
+          </ul>
+        </div>
+      </ProjectContent>
+    </ProjectWrapper>
+  )
+}
+
+export const SimpleWeather = () => {
+  return (
+    <ProjectWrapper>
+      <ProjectContent>
+        <ProjcetImageStyle src={weather} alt="a simple weather app" />
+        <div className="desc">
+          <h2 className="header">Simple Weather App</h2>
+          <p>This weather app is create with an Weather API and built with React, HTML5, CSS3, Styled Components, and Javascript.
+          <br />
+            <p className="subdesc">&#47;&#47; just need to redesign the ui</p>
+          </p>
+          <ul className="buttons">
+            <li><ALink primary href="https://paubonilla.github.io/simple-weather-app/" target="_blank" rel="noopener noreferrer">Check weather</ALink></li>
+            <li><ALink href="https://github.com/paubonilla/simple-weather-app" target="_blank" rel="noopener noreferrer"><p>View code</p></ALink></li>
           </ul>
         </div>
       </ProjectContent>
