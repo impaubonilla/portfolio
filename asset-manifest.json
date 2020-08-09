@@ -1,28 +1,26 @@
 {
   "files": {
     "main.css": "/static/css/main.1168f3f9.chunk.css",
-    "main.js": "/static/js/main.57207a63.chunk.js",
-    "main.js.map": "/static/js/main.57207a63.chunk.js.map",
+    "main.js": "/static/js/main.6aa0b972.chunk.js",
+    "main.js.map": "/static/js/main.6aa0b972.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f793350c.js",
     "runtime-main.js.map": "/static/js/runtime-main.f793350c.js.map",
-    "static/js/2.99f4b23b.chunk.js": "/static/js/2.99f4b23b.chunk.js",
-    "static/js/2.99f4b23b.chunk.js.map": "/static/js/2.99f4b23b.chunk.js.map",
+    "static/js/2.7dbabfad.chunk.js": "/static/js/2.7dbabfad.chunk.js",
+    "static/js/2.7dbabfad.chunk.js.map": "/static/js/2.7dbabfad.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c4e5319864921b375ae6bc9aa8dc00e9.js": "/precache-manifest.c4e5319864921b375ae6bc9aa8dc00e9.js",
+    "precache-manifest.9315e2b464834b6508b36815b96ca70d.js": "/precache-manifest.9315e2b464834b6508b36815b96ca70d.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.1168f3f9.chunk.css.map": "/static/css/main.1168f3f9.chunk.css.map",
-    "static/js/2.99f4b23b.chunk.js.LICENSE.txt": "/static/js/2.99f4b23b.chunk.js.LICENSE.txt",
+    "static/js/2.7dbabfad.chunk.js.LICENSE.txt": "/static/js/2.7dbabfad.chunk.js.LICENSE.txt",
     "static/media/SF.jpeg": "/static/media/SF.21e4d7b9.jpeg",
     "static/media/alchemist.jpg": "/static/media/alchemist.363b8266.jpg",
     "static/media/baybayintagalog.mp4": "/static/media/baybayintagalog.97b5e3ca.mp4",
     "static/media/bestfriends.jpg": "/static/media/bestfriends.9e4fe7bd.jpg",
     "static/media/bobatime.jpeg": "/static/media/bobatime.8724bca5.jpeg",
     "static/media/converse.jpeg": "/static/media/converse.ab4aee89.jpeg",
-    "static/media/dell-ultrasharp-U2718Q.jpg": "/static/media/dell-ultrasharp-U2718Q.9d74a399.jpg",
     "static/media/dmv-test.png": "/static/media/dmv-test.301bc2fa.png",
     "static/media/lakershat.jpeg": "/static/media/lakershat.b847e36d.jpeg",
     "static/media/lasubway.jpg": "/static/media/lasubway.25f3ff6b.jpg",
-    "static/media/macbook-pro-2019.jpg": "/static/media/macbook-pro-2019.432ca1d4.jpg",
     "static/media/ps4controller1.JPG": "/static/media/ps4controller1.134a25be.JPG",
     "static/media/self.jpg": "/static/media/self.7b79d294.jpg",
     "static/media/simple-weather.png": "/static/media/simple-weather.c98c4ffa.png",
@@ -30,8 +28,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f793350c.js",
-    "static/js/2.99f4b23b.chunk.js",
+    "static/js/2.7dbabfad.chunk.js",
     "static/css/main.1168f3f9.chunk.css",
-    "static/js/main.57207a63.chunk.js"
+    "static/js/main.6aa0b972.chunk.js"
   ]
 }
