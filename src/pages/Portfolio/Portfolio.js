@@ -1,6 +1,6 @@
 import React from 'react'
 import { PortfolioContainer, SubHeader, Video, VideoWrapper, VideoHeader, ProgressBar } from '../Portfolio/index'
-import { ProjectsCard, BlogCard, GalerryCard } from '../Cards/Cards'
+import { ProjectsCard, BlogCard, GalerryCard } from '../../components/Cards/Cards'
 import baybayin from '../../videos/baybayintagalog.mp4'
 
 export default function Portfolio() {

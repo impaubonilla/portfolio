@@ -1,15 +1,18 @@
 import React from 'react'
-import Home from './components/Home/Home'
-import Portfolio from './components/Portfolio/Portfolio'
-import Projects from './components/Projects/Projects'
-import Technology from './components/Technology/Technology'
-import Gallery from './components/Gallery/Gallery'
-import Blog from './components/Blog/Blog'
-import About from './components/About/About'
-import Footer from './components/Footer/Footer'
-import { HomeIcon, PortfolioIcon, ProjectsIcon, TechnologyIcon, BlogIcon, Height, AboutIcon } from './components/Icons/Icons'
-import { NameLogo, Nav, Content, PageWrapper, PageInner, Icons } from './styled'
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
+// Pages
+import Home from './pages/Home/Home'
+import Portfolio from './pages/Portfolio/Portfolio'
+import Projects from './pages/Projects/Projects'
+// import Technology from './pages/Technology/Technology'
+import Gallery from './pages/Gallery/Gallery'
+import Blog from './pages/Blog/Blog'
+import About from './pages/About/About'
+// Components
+import Footer from './components/Footer/Footer'
+import { HomeIcon, PortfolioIcon, ProjectsIcon, BlogIcon, Height, AboutIcon } from './components/Icons/Icons'
+// Styles 
+import { NameLogo, Nav, Content, PageWrapper, PageInner, Icons } from './styled'
 import './App.scss'
 
 function App() {
@@ -28,7 +31,7 @@ function App() {
               <HomeIcon />
               <PortfolioIcon />
               <ProjectsIcon />
-              <TechnologyIcon />
+              {/* <TechnologyIcon /> */}
               <BlogIcon />
               <Height />
               <AboutIcon />
@@ -39,7 +42,7 @@ function App() {
               <Route path="/" exact component={Home} />
               <Route path="/portfolio" component={Portfolio} />
               <Route path="/projects" component={Projects} />
-              <Route path="/tech" component={Technology} />
+              {/* <Route path="/tech" component={Technology} /> */}
               <Route path="/gallery" component={Gallery} />
               <Route path="/blog" component={Blog} />
               <Route path="/about" component={About} />

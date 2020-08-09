@@ -1,5 +1,5 @@
 import React from 'react'
-import { TicTacToe, DMVTest, SimpleWeather } from '../ProjectFiles/ProjectFiles'
+import { TicTacToe, DMVTest, SimpleWeather } from '../../components/ProjectFiles/ProjectFiles'
 
 export default function Projects() {
     return (
