@@ -1,18 +1,10 @@
 import React from 'react'
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
-// Pages
-import Home from './pages/Home/Home'
-import Portfolio from './pages/Portfolio/Portfolio'
-import Projects from './pages/Projects/Projects'
-// import Technology from './pages/Technology/Technology'
-import Gallery from './pages/Gallery/Gallery'
-import Blog from './pages/Blog/Blog'
-import About from './pages/About/About'
+import { BrowserRouter as Router } from 'react-router-dom'
 // Components
-import Footer from './components/Footer/Footer'
-import { HomeIcon, PortfolioIcon, ProjectsIcon, BlogIcon, Height, AboutIcon } from './components/Icons/Icons'
+import Nav from './components/Nav/Nav'
+import Content from './components/Content/Content'
 // Styles 
-import { NameLogo, Nav, Content, PageWrapper, PageInner, Icons } from './styled'
+import { PageWrapper, PageInner } from './styled'
 import './App.scss'
 
 function App() {
@@ -21,34 +13,8 @@ function App() {
       {/* <Loader /> */}
       <PageWrapper>
         <PageInner>
-          <Nav>
-            <Icons>
-              <NameLogo>
-                <Link to="/">
-                  Paulo Bonilla
-                </Link>
-              </NameLogo>
-              <HomeIcon />
-              <PortfolioIcon />
-              <ProjectsIcon />
-              {/* <TechnologyIcon /> */}
-              <BlogIcon />
-              <Height />
-              <AboutIcon />
-            </Icons>
-          </Nav>
-          <Content>
-            <Switch>
-              <Route path="/" exact component={Home} />
-              <Route path="/portfolio" component={Portfolio} />
-              <Route path="/projects" component={Projects} />
-              {/* <Route path="/tech" component={Technology} /> */}
-              <Route path="/gallery" component={Gallery} />
-              <Route path="/blog" component={Blog} />
-              <Route path="/about" component={About} />
-            </Switch>
-            <Footer />
-          </Content>
+          <Nav />
+          <Content />
         </PageInner>
       </PageWrapper>
     </Router>

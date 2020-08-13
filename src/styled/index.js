@@ -2,38 +2,12 @@ import styled from 'styled-components'
 
 /*                    App.js Styles                    */
 
-export const NameLogo = styled.div`
-  padding: 2rem;
-  a { 
-    color: #e8e8e8;
-    font-size: 12px;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 8px;
-    @media ${({ theme }) => theme.mediaQueries.bellow768} {
-    display: none;
-    }
-  }
-`
-
 export const Section = styled.div`
   color: #e8e8e8;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-`
-
-export const Nav = styled.div`
-  position: fixed;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  border-right: 1px solid rgba(255, 255, 255, 0.1);
-
-  @media ${({ theme }) => theme.mediaQueries.bellow768} {
-    width: 60px;
-  }
 `
 
 export const Icons = styled.div`
@@ -64,29 +38,6 @@ export const PageInner = styled.div`
   max-width: 850px;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
   border-right: 1px solid rgba(255, 255, 255, 0.1);
-`
-
-export const Content = styled.div`
-  width: 100%;
-  height: 100%;
-  margin-left: 254px;
-  @media (max-width: 768px) {
-    margin-left: 60px;
-  }
-  overflow: auto;
-  animation: transitionIn 3s;
-
-  @keyframes transitionIn {
-    from {
-      opacity: 0;
-      background: #333436;
-      z-index: 10000;
-    }
-    to {
-      opacity: 1;
-      z-index: -1;
-    }
-  }
 `
 
 /*                    Social Media Styles                    */
