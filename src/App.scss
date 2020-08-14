@@ -97,6 +97,18 @@ $sourceCode: "Source Code Pro", monospace;
   }
 }
 
+.container .card .face.face2 .content2 {
+  @media (max-width: 768px) {
+    margin-left: 12px;
+  }
+  @media (max-width: 480px) {
+    margin-left: 10px;
+  }
+  @media (max-width: 320px) {
+    margin-left: 8px;
+  }
+}
+
 .container .card .face.face2 .content2 p {
   color: rgb(0, 118, 0);
   margin: 0;
@@ -104,6 +116,7 @@ $sourceCode: "Source Code Pro", monospace;
   font-family: $sourceCode;
   font-size: 14px;
 }
+
 .container .card .face.face2 .content2 .alink {
   margin: 5px 0 0;
   padding: 1rem;
