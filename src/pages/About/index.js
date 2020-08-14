@@ -8,7 +8,7 @@ export const AboutContainer = styled.div`
 
 export const DPContainer = styled.div`
   position: relative;
-  height: 65vh;
+  height: 46vh;
   @media (max-width: 768px) {
     height: 80vh;
   }

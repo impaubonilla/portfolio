@@ -4,7 +4,7 @@ import { BrowserRouter as Router } from 'react-router-dom'
 import Nav from './components/Nav/Nav'
 import Content from './components/Content/Content'
 // Styles 
-import { PageWrapper, PageInner } from './styled'
+import { PageWrapper, PageInner } from './costomization/Styled'
 import './App.scss'
 
 function App() {

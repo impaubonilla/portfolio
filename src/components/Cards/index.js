@@ -23,20 +23,22 @@ export const ProjectsCardContainer = styled.div`
       display: flex;
       justify-content: center;
       align-items: center;
-      background: #38618c;
+      background: #eeeeee;
     }
   }
 `
 
 export const BlogCardContainer = styled(ProjectsCardContainer)`
   .card {
-    .face {background: #f9ebe0;}
+    /* .face {background: #f9ebe0;} */
+    .face {background: #9e9e9e;}
   }
 `
 
 export const GalleryCardContainer = styled(ProjectsCardContainer)`
   .card {
     .face {
-      background: #c4e0f9;}
+      /* background: #c4e0f9;} */
+      background: #424242;}
   }
 `

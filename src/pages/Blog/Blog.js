@@ -1,5 +1,5 @@
 import React from 'react'
-import { Section } from '../../styled'
+import { Section } from '../../costomization/Styled'
 import { StoryTitle, Paragraph } from '../Blog/index'
 
 export default function Blog() {

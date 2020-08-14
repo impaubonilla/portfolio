@@ -12,7 +12,7 @@ export const ProjectsCard = () => {
                 <div className="face face1">
                     <div className="content1">
                         <img src={data} alt="..." />
-                        <h3>Projects</h3>
+                        <h3 >Projects</h3>
                     </div>
                 </div>
                 <div className="face face2">
@@ -35,7 +35,7 @@ export const BlogCard = () => {
                 <div className="face face1">
                     <div className="content1">
                         <img src={text} alt="..." />
-                        <h3>Blog</h3>
+                        <h3 >Blog</h3>
                     </div>
                 </div>
                 <div className="face face2">
@@ -58,7 +58,7 @@ export const GalerryCard = () => {
                 <div className="face face1">
                     <div className="content1">
                         <img src={picture} alt="..." />
-                        <h3>Gallery</h3>
+                        <h3 >Gallery</h3>
                     </div>
                 </div>
                 <div className="face face2">

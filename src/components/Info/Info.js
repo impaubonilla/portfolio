@@ -1,5 +1,5 @@
 import React from 'react'
-import { Instagram, Twitter, Facebook, YouTube, ContactsStyle } from '../../styled'
+import { Instagram, Twitter, Facebook, YouTube, ContactsStyle } from '../../costomization/Styled'
 import { InfoContainer, Subheader, Text, ToolsContainer, Lang, ContactsContainer } from '../Info/index'
 
 export const Bio = () => {

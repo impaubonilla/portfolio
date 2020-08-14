@@ -1,4 +1,5 @@
 import React from 'react'
+import { Typography } from '@material-ui/core'
 import { PortfolioContainer, SubHeader, Video, VideoWrapper, VideoHeader, ProgressBar } from '../Portfolio/index'
 import { ProjectsCard, BlogCard, GalerryCard } from '../../components/Cards/Cards'
 import baybayin from '../../videos/baybayintagalog.mp4'
@@ -28,15 +29,15 @@ export default function Portfolio() {
                 <ul>
                     <li className="html">
                         <span>{html}<br /></span>
-                        <p>&#47;&#47; 85%</p>
+                        <Typography variant="body1" >&#47;&#47; * 85%</Typography>
                     </li>
                     <li className="js">
                         <span>{js}<br /></span>
-                        <p>&#47;&#47; 80%</p>
+                        <Typography variant="body1" >&#47;&#47; * 80%</Typography>
                     </li>
                     <li className="react">
                         <span>React<br /></span>
-                        <p>&#47;&#47; 80%</p>
+                        <Typography variant="body1" >&#47;&#47; * 80%</Typography>
                     </li>
                 </ul>
                 <br />
@@ -45,15 +46,15 @@ export default function Portfolio() {
                 <ul>
                     <li className="photoshop">
                         <span>Photoshop<br /></span>
-                        <p>&#47;&#47; 75%</p>
+                        <Typography variant="body1" >&#47;&#47; * 75%</Typography>
                     </li>
                     <li className="illustrator">
                         <span>Illustrator<br /></span>
-                        <p>&#47;&#47; 75%</p>
+                        <Typography variant="body1" >&#47;&#47; * 75%</Typography>
                     </li>
                     <li className="premiere-pro">
                         <span>Premiere Pro<br /></span>
-                        <p>&#47;&#47; 87%</p>
+                        <Typography variant="body1" >&#47;&#47; * 87%</Typography>
                     </li>
                 </ul>
             </ProgressBar>
