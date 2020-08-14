@@ -4,6 +4,8 @@ import { ProjectsCard, BlogCard, GalerryCard } from '../../components/Cards/Card
 import baybayin from '../../videos/baybayintagalog.mp4'
 
 export default function Portfolio() {
+    const html = 'Html5 | Css3 | Sass'
+    const js = 'Javascript'
     return (
         <PortfolioContainer>
 
@@ -24,17 +26,35 @@ export default function Portfolio() {
             <ProgressBar>
                 <div className="header">Technology</div>
                 <ul>
-                    <li className="html">Html5 | Css3 | Sass</li>
-                    <li className="js">Javascript</li>
-                    <li className="react">React</li>
+                    <li className="html">
+                        <span>{html}<br /></span>
+                        <p>&#47;&#47; 85%</p>
+                    </li>
+                    <li className="js">
+                        <span>{js}<br /></span>
+                        <p>&#47;&#47; 80%</p>
+                    </li>
+                    <li className="react">
+                        <span>React<br /></span>
+                        <p>&#47;&#47; 80%</p>
+                    </li>
                 </ul>
                 <br />
                 <br />
                 <div className="header">Skills</div>
                 <ul>
-                    <li className="photoshop">Photoshop</li>
-                    <li className="illustrator">Illustrator</li>
-                    <li className="premiere-pro">Premiere Pro</li>
+                    <li className="photoshop">
+                        <span>Photoshop<br /></span>
+                        <p>&#47;&#47; 75%</p>
+                    </li>
+                    <li className="illustrator">
+                        <span>Illustrator<br /></span>
+                        <p>&#47;&#47; 75%</p>
+                    </li>
+                    <li className="premiere-pro">
+                        <span>Premiere Pro<br /></span>
+                        <p>&#47;&#47; 87%</p>
+                    </li>
                 </ul>
             </ProgressBar>
         </PortfolioContainer>

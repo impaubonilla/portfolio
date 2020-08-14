@@ -44,9 +44,8 @@ export const ALink = styled.a`
       border: 1px solid #333436;
       margin-right: 10px;
       border-radius: 5px;
-      padding: 8px;
+      padding: 8px 21px;
       text-transform: uppercase;
-
       &:hover {
         color: #333436;
         background-color: #e8e8e8;

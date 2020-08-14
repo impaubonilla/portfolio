@@ -4,14 +4,14 @@ export const Introduction = styled.div`
   color: #e8e8e8;
   margin: 0 2rem;
 
-  div {
+  > div {
     margin: 2rem 0;
     display: flex;
     justify-content: center;
   }
 
-  a {
-    padding: 10px;
+a {
+    padding: 16px 32px;
     border: 1px solid #e8e8e8;
     color: #e8e8e8;
   }
@@ -22,7 +22,7 @@ export const Greetings = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: column;
-  h1 {
+  > h1 {
     color: #dcdcdc;
     height: 122px;
     min-width: 100%;

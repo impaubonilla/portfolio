@@ -42,6 +42,10 @@ export const ProgressBar = styled.div`
     margin: 50px 0;
     font-weight: 500;
     text-transform: lowercase;
+     p {
+      color: rgb(0, 118, 0);
+       font-family: "Source Code Pro", monospace;
+     }
 
     &:before {
       content: "";
