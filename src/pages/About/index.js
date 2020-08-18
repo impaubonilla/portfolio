@@ -8,17 +8,19 @@ export const AboutContainer = styled.div`
 
 export const DPContainer = styled.div`
   position: relative;
-  height: 46vh;
+  height: 100%;
+  max-height: 625px;
   @media (max-width: 768px) {
-    height: 80vh;
+    max-height: 725px;
   }
   @media (max-width: 480px) {
-    height: 45vh;
+    max-height: 425px;
   }
   @media (max-width: 320px) {
-    height: 30vh;
+    max-height: 300px;
   }
   overflow: hidden;
+  transition: 0.4s ease;
 `
 
 export const DisplayPicture = styled.img`
