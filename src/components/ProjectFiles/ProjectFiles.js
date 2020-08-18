@@ -3,6 +3,7 @@ import { ProjectWrapper, ALink, ProjectContent, ProjcetImageStyle } from '../Pro
 import ttt from '../../images/projects/the-office-tic-tac-toe.png'
 import dmv from '../../images/projects/dmv-test.png'
 import weather from '../../images/projects/simple-weather.png'
+import hangman from '../../images/projects/hangman.png'
 
 export const TicTacToe = () => {
   return (
@@ -60,6 +61,27 @@ export const SimpleWeather = () => {
           <ul className="buttons">
             <li><ALink primary href="https://paubonilla.github.io/simple-weather-app/" target="_blank" rel="noopener noreferrer">Check weather</ALink></li>
             <li><ALink href="https://github.com/paubonilla/simple-weather-app" target="_blank" rel="noopener noreferrer"><p>View code</p></ALink></li>
+          </ul>
+        </div>
+      </ProjectContent>
+    </ProjectWrapper>
+  )
+}
+
+export const Hangman = () => {
+  return (
+    <ProjectWrapper>
+      <ProjectContent>
+        <ProjcetImageStyle src={hangman} alt="hangman game" />
+        <div className="desc">
+          <h2 className="header">Hangman</h2>
+          <p>This hangman game is built with React with a simple structure of HTML, Styled Components, and Javascript.
+          <br />
+            <p className="subdesc">&#47;&#47; temporary works on desktop only</p>
+          </p>
+          <ul className="buttons">
+            <li><ALink primary href="https://paubonilla.github.io/hangman-react/" target="_blank" rel="noopener noreferrer">Play Game</ALink></li>
+            <li><ALink href="https://github.com/paubonilla/hangman-react" target="_blank" rel="noopener noreferrer"><p>View code</p></ALink></li>
           </ul>
         </div>
       </ProjectContent>
