@@ -1,9 +1,9 @@
 import React from 'react'
 import { ProjectWrapper, ALink, ProjectContent, ProjcetImageStyle } from '../ProjectFiles/index'
-import ttt from '../../images/projects/the-office-tic-tac-toe.png'
-import dmv from '../../images/projects/dmv-test.png'
-import weather from '../../images/projects/simple-weather.png'
-import hangman from '../../images/projects/hangman.png'
+import ttt from '../../media/images/projects/the-office-tic-tac-toe.png'
+import dmv from '../../media/images/projects/dmv-test.png'
+import weather from '../../media/images/projects/simple-weather.png'
+import hangman from '../../media/images/projects/hangman.png'
 
 export const TicTacToe = () => {
   return (

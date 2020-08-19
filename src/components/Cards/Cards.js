@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { ProjectsCardContainer, BlogCardContainer, GalleryCardContainer } from '../Cards/index'
-import data from '../../images/cards/data.png'
-import text from '../../images/cards/text.png'
-import picture from '../../images/cards/picture.png'
+import data from '../../media/images/cards/data.png'
+import text from '../../media/images/cards/text.png'
+import picture from '../../media/images/cards/picture.png'
 
 export const ProjectsCard = () => {
     return (

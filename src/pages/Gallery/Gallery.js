@@ -1,13 +1,13 @@
 import React from 'react'
 import { GalleryWrapper, GalleryImageStyle } from '../Gallery/index'
-import alchemist from '../../images/gallery/alchemist.jpg'
-import lasubway from '../../images/gallery/lasubway.jpg'
-import bestfriends from '../../images/gallery/bestfriends.jpg'
-import ps4ctrl1 from '../../images/gallery/ps4controller1.JPG'
-import bobatime from '../../images/gallery/bobatime.jpeg'
-import lakershat from '../../images/gallery/lakershat.jpeg'
-import converse from '../../images/gallery/converse.jpeg'
-import SF from '../../images/gallery/SF.jpeg'
+import alchemist from '../../media/images/gallery/alchemist.jpg'
+import lasubway from '../../media/images/gallery/lasubway.jpg'
+import bestfriends from '../../media/images/gallery/bestfriends.jpg'
+import ps4ctrl1 from '../../media/images/gallery/ps4controller1.JPG'
+import bobatime from '../../media/images/gallery/bobatime.jpeg'
+import lakershat from '../../media/images/gallery/lakershat.jpeg'
+import converse from '../../media/images/gallery/converse.jpeg'
+import SF from '../../media/images/gallery/SF.jpeg'
 
 export default function Gallery() {
   return (
