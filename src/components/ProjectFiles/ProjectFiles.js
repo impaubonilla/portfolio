@@ -4,6 +4,7 @@ import ttt from '../../media/images/projects/the-office-tic-tac-toe.png'
 import dmv from '../../media/images/projects/dmv-test.png'
 import weather from '../../media/images/projects/simple-weather.png'
 import hangman from '../../media/images/projects/hangman.png'
+import moviewatchlist from '../../media/images/projects/movie-watchlist.png'
 
 export const TicTacToe = () => {
   return (
@@ -82,6 +83,27 @@ export const Hangman = () => {
           <ul className="buttons">
             <li><ALink primary href="https://paubonilla.github.io/hangman-react/" target="_blank" rel="noopener noreferrer">Play Game</ALink></li>
             <li><ALink href="https://github.com/paubonilla/hangman-react" target="_blank" rel="noopener noreferrer"><p>View code</p></ALink></li>
+          </ul>
+        </div>
+      </ProjectContent>
+    </ProjectWrapper>
+  )
+}
+
+export const MovieWatchlist = () => {
+  return (
+    <ProjectWrapper>
+      <ProjectContent>
+        <ProjcetImageStyle src={moviewatchlist} alt="movie wathclist" />
+        <div className="desc">
+          <h2 className="header">Movie Watchlist</h2>
+          <p>This movie watchlist library is built with React Hooks with Styled Components, and Javascript.
+          <br />
+            <p className="subdesc">&#47;&#47; the mobile view is ugly</p>
+          </p>
+          <ul className="buttons">
+            <li><ALink primary href="https://paubonilla.github.io/movie-watchlist/" target="_blank" rel="noopener noreferrer">Search Movies</ALink></li>
+            <li><ALink href="https://github.com/paubonilla/movie-watchlist" target="_blank" rel="noopener noreferrer"><p>View code</p></ALink></li>
           </ul>
         </div>
       </ProjectContent>

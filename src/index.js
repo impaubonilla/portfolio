@@ -1,18 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { ThemeProvider } from 'styled-components';
-import { HashRouter } from 'react-router-dom'
+import { BrowserRouter as Router } from 'react-router-dom'
 import './index.scss';
 import App from './App';
 import Theme from './costomization/Theme/theme';
 
 ReactDOM.render(
-  <HashRouter>
+  <Router>
     <ThemeProvider theme={Theme}>
       <React.StrictMode>
         <App />
       </React.StrictMode>
     </ThemeProvider>
-  </HashRouter>,
+  </Router>,
   document.getElementById('root')
 );
