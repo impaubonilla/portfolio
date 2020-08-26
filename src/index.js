@@ -9,9 +9,7 @@ import Theme from './costomization/Theme/theme';
 ReactDOM.render(
   <Router>
     <ThemeProvider theme={Theme}>
-      <React.StrictMode>
-        <App />
-      </React.StrictMode>
+      <App />
     </ThemeProvider>
   </Router>,
   document.getElementById('root')
