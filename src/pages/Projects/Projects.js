@@ -1,5 +1,5 @@
 import React from 'react'
-import { TicTacToe, DMVTest, SimpleWeather, Hangman, MovieWatchlist } from '../../components/ProjectFiles/ProjectFiles'
+import { TicTacToe, DMVTest, SimpleWeather, Hangman, MovieWatchlist, JAWVWARP } from '../../components/ProjectFiles/ProjectFiles'
 
 export default function Projects() {
     return (
@@ -9,6 +9,7 @@ export default function Projects() {
             <SimpleWeather />
             <Hangman />
             <MovieWatchlist />
+            <JAWVWARP />
         </div>
     )
 }
