@@ -1,11 +1,12 @@
 import React from 'react'
-import { TicTacToe, DMVTest, SimpleWeather, Hangman, MovieWatchlist, JAWVWARP } from '../../components/ProjectFiles/ProjectFiles'
+import { TicTacToe, DMVTest, Pokedex, SimpleWeather, Hangman, MovieWatchlist, JAWVWARP } from '../../components/ProjectFiles/ProjectFiles'
 
 export default function Projects() {
     return (
         <div>
             <TicTacToe />
             <DMVTest />
+            <Pokedex />
             <SimpleWeather />
             <Hangman />
             <MovieWatchlist />

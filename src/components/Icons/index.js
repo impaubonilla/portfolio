@@ -4,6 +4,7 @@ export const IconWrapper = styled.div`
   display: flex;
   align-items: center;
   height: 50px;
+  padding: 10px;
   a {
     color: #e8e8e8;
   }

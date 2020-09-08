@@ -1,18 +1,30 @@
 import styled, { css } from 'styled-components'
 
 export const ProjectWrapper = styled.div`
-  background: #e8e8e8;
+  background: #ececec;
   color: #333436;
   margin-bottom: 5rem;
 
   .desc {
-    margin: 1rem 0;
-    padding: 1rem;
-    .header {
-      color: #696969;
+    border-top: 2px dashed #242424;
+    margin-bottom: 0.5rem;
+    padding: 2rem 3rem;
+    > p {
+      font-size: 14px;
+      @media (max-width: 480px) {
+        font-size: 12px;
+      }
+      font-weight: 400;
     }
-    .subdesc {
+    .header {
+      color: #242424;
+      @media (max-width: 480px) {
+        text-align: center;
+      }
+    }
+    .subheader {
       color: rgb(0, 118, 0);
+      font-size: 12px;
       font-family: "Source Code Pro", monospace;
     }
   }
@@ -20,6 +32,10 @@ export const ProjectWrapper = styled.div`
     list-style: none;
     display: flex;
     align-items: center;
+    @media (max-width: 480px) {
+      justify-content: center;
+      flex-direction: column;
+    }
     .li {
       display: flex;
       align-items: center;
@@ -43,6 +59,10 @@ export const ALink = styled.a`
       background-color: #333436;
       border: 1px solid #333436;
       margin-right: 10px;
+      @media (max-width: 480px) {
+        margin-right: 0;
+        margin-bottom: 10px;
+      }
       border-radius: 5px;
       padding: 8px 21px;
       text-transform: uppercase;

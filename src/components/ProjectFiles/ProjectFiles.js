@@ -6,6 +6,7 @@ import weather from '../../media/images/projects/simple-weather.png'
 import hangman from '../../media/images/projects/hangman.png'
 import moviewatchlist from '../../media/images/projects/movie-watchlist.png'
 import jawvwarp from '../../media/images/projects/jawvwarp.png'
+import pokedex from '../../media/images/projects/pokedex.png'
 
 export const TicTacToe = () => {
   return (
@@ -16,7 +17,7 @@ export const TicTacToe = () => {
           <h2 className="header">Tic Tac Toe</h2>
           <p>A The Office theme tic tac toe game. This game is built with React, HTML5, CSS3, SASS, Styled Components, and Javascript.
            <br />
-            <p className="subdesc">&#47;&#47; it is responsive</p>
+            <p className="subheader">&#47;&#47; it is responsive</p>
           </p>
           <ul className="buttons">
             <li><ALink primary href="https://paubonilla.github.io/tic-tac-toe/" target="_blank" rel="noopener noreferrer">Play Game</ALink></li>
@@ -37,7 +38,7 @@ export const DMVTest = () => {
           <h2 className="header">DMV Permit Practice Test</h2>
           <p>This test is built with React, HTML5, CSS3, Styled Components, and Javascript.
           <br />
-            <p className="subdesc">&#47;&#47; this is a work in progess project</p>
+            <p className="subheader">&#47;&#47; this is a work in progess project</p>
           </p>
           <ul className="buttons">
             <li><ALink primary href="https://paubonilla.github.io/dmv-permit-practice-test/" target="_blank" rel="noopener noreferrer">Take Test</ALink></li>
@@ -58,7 +59,7 @@ export const SimpleWeather = () => {
           <h2 className="header">Simple Weather App</h2>
           <p>This weather app is create with an Weather API and built with React, HTML5, CSS3, Styled Components, and Javascript.
           <br />
-            <p className="subdesc">&#47;&#47; just need to redesign the ui</p>
+            <p className="subheader">&#47;&#47; just need to redesign the ui</p>
           </p>
           <ul className="buttons">
             <li><ALink primary href="https://paubonilla.github.io/simple-weather-app/" target="_blank" rel="noopener noreferrer">Check weather</ALink></li>
@@ -79,7 +80,7 @@ export const Hangman = () => {
           <h2 className="header">Hangman</h2>
           <p>This hangman game is built with React with a simple structure of HTML, Styled Components, and Javascript.
           <br />
-            <p className="subdesc">&#47;&#47; temporary works on desktop only</p>
+            <p className="subheader">&#47;&#47; temporary works on desktop only</p>
           </p>
           <ul className="buttons">
             <li><ALink primary href="https://paubonilla.github.io/hangman-react/" target="_blank" rel="noopener noreferrer">Play Game</ALink></li>
@@ -100,7 +101,7 @@ export const MovieWatchlist = () => {
           <h2 className="header">Movie Watchlist</h2>
           <p>This movie watchlist library is built with React Hooks with Styled Components, and Javascript.
           <br />
-            <p className="subdesc">&#47;&#47; the mobile view is ugly</p>
+            <p className="subheader">&#47;&#47; the mobile view is ugly</p>
           </p>
           <ul className="buttons">
             <li><ALink primary href="https://paubonilla.github.io/movie-watchlist/" target="_blank" rel="noopener noreferrer">Search Movies</ALink></li>
@@ -121,11 +122,32 @@ export const JAWVWARP = () => {
           <h2 className="header">JAWVWARP Website</h2>
           <p>I made a responsive website/blog about my friends in how we start building our brotherhood. It built with React Hooks.
           <br />
-            <p className="subdesc">&#47;&#47; it's cool</p>
+            <p className="subheader">&#47;&#47; it's cool</p>
           </p>
           <ul className="buttons">
             <li><ALink primary href="https://jawvwarp.netlify.app/" target="_blank" rel="noopener noreferrer">Check it out</ALink></li>
             <li><ALink href="https://github.com/paubonilla/jawvwarp.io" target="_blank" rel="noopener noreferrer"><p>View code</p></ALink></li>
+          </ul>
+        </div>
+      </ProjectContent>
+    </ProjectWrapper>
+  )
+}
+
+export const Pokedex = () => {
+  return (
+    <ProjectWrapper>
+      <ProjectContent>
+        <ProjcetImageStyle src={pokedex} alt="pokedex" />
+        <div className="desc">
+          <h2 className="header">Pokédex</h2>
+          <p>I made a Pokédex app built with React Hooks and designed using Material UI and Styled Components.
+          <br />
+            <p className="subheader">&#47;&#47; search your favorite Pokémon</p>
+          </p>
+          <ul className="buttons">
+            <li><ALink primary href="https://pokedex027.netlify.app/" target="_blank" rel="noopener noreferrer">Go to Pokédex</ALink></li>
+            <li><ALink href="https://github.com/paubonilla/pokedex" target="_blank" rel="noopener noreferrer"><p>View code</p></ALink></li>
           </ul>
         </div>
       </ProjectContent>

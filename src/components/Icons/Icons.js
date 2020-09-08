@@ -1,6 +1,9 @@
 import React from 'react'
 import { IconWrapper, IconStyle, IconNameStyle } from '../Icons/index'
-import { Icon } from 'semantic-ui-react'
+import { AiFillLinkedin, AiFillGithub, AiOutlineMail, AiOutlineInstagram, AiOutlineTwitter, AiFillFacebook, AiFillYoutube } from 'react-icons/ai'
+import { BsFolder, BsFileCode, BsFileText } from 'react-icons/bs'
+import { RiHome2Line, RiComputerLine } from 'react-icons/ri'
+import { IoMdFingerPrint } from 'react-icons/io'
 import { NavLink } from 'react-router-dom'
 import styled from 'styled-components'
 
@@ -13,7 +16,7 @@ export const HomeIcon = () => {
         <NavLink exact className="nav-link" activeClassName="active" to="/">
             <IconWrapper>
                 <IconStyle>
-                    <Icon name="home" />
+                    <RiHome2Line />
                 </IconStyle>
                 <IconNameStyle>Home</IconNameStyle>
             </IconWrapper>
@@ -26,7 +29,7 @@ export const PortfolioIcon = () => {
         <NavLink exact className="nav-link" activeClassName="active" to="/portfolio">
             <IconWrapper>
                 <IconStyle>
-                    <Icon name="folder open outline" />
+                    <BsFolder />
                 </IconStyle>
                 <IconNameStyle>Portfolio</IconNameStyle>
             </IconWrapper>
@@ -39,7 +42,7 @@ export const ProjectsIcon = () => {
         <NavLink exact className="nav-link" activeClassName="active" to="/projects">
             <IconWrapper>
                 <IconStyle>
-                    <Icon name="file outline" />
+                    <BsFileCode />
                 </IconStyle>
                 <IconNameStyle>Projects</IconNameStyle>
             </IconWrapper>
@@ -52,7 +55,7 @@ export const TechnologyIcon = () => {
         <NavLink exact className="nav-link" activeClassName="active" to="/tech">
             <IconWrapper>
                 <IconStyle>
-                    <Icon name="file code outline" />
+                    <RiComputerLine />
                 </IconStyle>
                 <IconNameStyle>Tech</IconNameStyle>
             </IconWrapper>
@@ -65,7 +68,7 @@ export const BlogIcon = () => {
         <NavLink exact className="nav-link" activeClassName="active" to="/blog">
             <IconWrapper>
                 <IconStyle>
-                    <Icon name="file alternate outline" />
+                    <BsFileText />
                 </IconStyle>
                 <IconNameStyle>Blog</IconNameStyle>
             </IconWrapper>
@@ -84,7 +87,7 @@ export const AboutIcon = () => {
         <NavLink exact className="nav-link" activeClassName="active" to="/about">
             <IconWrapper>
                 <IconStyle>
-                    <Icon name="user secret" />
+                    <IoMdFingerPrint />
                 </IconStyle>
                 <IconNameStyle>About</IconNameStyle>
             </IconWrapper>
@@ -96,7 +99,7 @@ export const LinkedInIcon = () => {
     return (
         <>
             <IconWrapper>
-                <a href="https://www.linkedin.com/in/paulo-bonilla-2375851aa/" target="_blank" rel="noopener noreferrer"><Icon name='linkedin square' /></a>
+                <a href="https://www.linkedin.com/in/paulo-bonilla-2375851aa/" target="_blank" rel="noopener noreferrer"><AiFillLinkedin /></a>
             </IconWrapper>
         </>
     )
@@ -106,7 +109,7 @@ export const GitHubIcon = () => {
     return (
         <>
             <IconWrapper>
-                <a href="https://github.com/paubonilla" target="_blank" rel="noopener noreferrer"><Icon name='github' /></a>
+                <a href="https://github.com/paubonilla" target="_blank" rel="noopener noreferrer"><AiFillGithub /></a>
             </IconWrapper>
         </>
     )
@@ -116,7 +119,7 @@ export const EmailIcon = () => {
     return (
         <>
             <IconWrapper>
-                <a href="mailto:impaubonilla@gmail.com" target="_blank" rel="noopener noreferrer"><Icon name='mail outline' /></a>
+                <a href="mailto:impaubonilla@gmail.com" target="_blank" rel="noopener noreferrer"><AiOutlineMail /></a>
             </IconWrapper>
         </>
     )
@@ -126,7 +129,7 @@ export const InstagramIcon = () => {
     return (
         <>
             <IconWrapper>
-                <a href="https://www.instagram.com/impaubonilla/" target="_blank" rel="noopener noreferrer"><Icon name='instagram' /></a>
+                <a href="https://www.instagram.com/impaubonilla/" target="_blank" rel="noopener noreferrer"><AiOutlineInstagram /></a>
             </IconWrapper>
         </>
     )
@@ -136,7 +139,7 @@ export const TwitterIcon = () => {
     return (
         <>
             <IconWrapper>
-                <a href="https://www.twitter.com/pxixcv" target="_blank" rel="noopener noreferrer"><Icon name='twitter' /></a>
+                <a href="https://www.twitter.com/pxixcv" target="_blank" rel="noopener noreferrer"><AiOutlineTwitter /></a>
             </IconWrapper>
         </>
     )
@@ -146,7 +149,7 @@ export const FacebookIcon = () => {
     return (
         <>
             <IconWrapper>
-                <a href="https://www.facebook.com/pxixcv" target="_blank" rel="noopener noreferrer"><Icon name='facebook' /></a>
+                <a href="https://www.facebook.com/pxixcv" target="_blank" rel="noopener noreferrer"><AiFillFacebook /></a>
             </IconWrapper>
         </>
     )
@@ -156,7 +159,7 @@ export const YouTubeIcon = () => {
     return (
         <>
             <IconWrapper>
-                <a href="https://www.youtube.com/channel/UCOzqf6znGEBswEYLu0exL-A" target="_blank" rel="noopener noreferrer"><Icon name='youtube' /></a>
+                <a href="https://www.youtube.com/channel/UCOzqf6znGEBswEYLu0exL-A" target="_blank" rel="noopener noreferrer"><AiFillYoutube /></a>
             </IconWrapper>
         </>
     )
